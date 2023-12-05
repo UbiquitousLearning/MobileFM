@@ -1,0 +1,3 @@
+[submodule "pandagpt"]
+	path = pandagpt
+	url = https://github.com/yxuansu/PandaGPT.git
