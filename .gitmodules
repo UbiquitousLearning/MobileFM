@@ -1,3 +1,9 @@
 [submodule "pandagpt"]
 	path = pandagpt
 	url = https://github.com/yxuansu/PandaGPT.git
+[submodule "ImageBind"]
+	path = ImageBind
+	url = https://github.com/facebookresearch/ImageBind
+[submodule "llama"]
+	path = llama
+	url = https://github.com/facebookresearch/llama.git
