@@ -1,5 +1,5 @@
 [submodule "ImageBind-LoRA"]
-	path = code/model/ImageBind-LoRA
+	path = code/model/ImageBindLoRA
 	url = https://github.com/fabawi/ImageBind-LoRA.git
 [submodule "llama"]
 	path = code/model/llama
