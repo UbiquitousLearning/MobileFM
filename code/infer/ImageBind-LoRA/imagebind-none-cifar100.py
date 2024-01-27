@@ -1,11 +1,11 @@
 import logging
 import torch
-from ..model.ImageBindLoRA import data
+import data
 import torchvision
 
-from ..model.ImageBindLoRA.models import imagebind_model
-from ..model.ImageBindLoRA.models.imagebind_model import ModalityType, load_module
-from ..model.ImageBindLoRA.models import lora as LoRA
+from models import imagebind_model
+from models.imagebind_model import ModalityType, load_module
+from models import lora as LoRA
 
 from torchvision import transforms
 from torchvision.datasets import CIFAR100
@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO, force=True)
 
 lora = True
 linear_probing = False
-device = "cuda:7" if torch.cuda.is_available() else "cpu"
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
 load_head_post_proc_finetuned = True
 
 assert not (linear_probing and lora), \

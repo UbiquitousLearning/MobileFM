@@ -490,24 +490,25 @@ def imagebind_huge(pretrained=False):
     )
 
     if pretrained:
-        if not os.path.exists(".checkpoints/imagebind_huge.pth"):
+        imagebind_ckpt_path = "./pretrained_ckpt/imagebind_huge.pth"
+        if not os.path.exists(imagebind_ckpt_path):
             print(
                 "Downloading imagebind weights to .checkpoints/imagebind_huge.pth ..."
             )
             os.makedirs(".checkpoints", exist_ok=True)
             torch.hub.download_url_to_file(
                 "https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth",
-                ".checkpoints/imagebind_huge.pth",
+                imagebind_ckpt_path,
                 progress=True,
             )
 
-        model.load_state_dict(torch.load(".checkpoints/imagebind_huge.pth"))
+        model.load_state_dict(torch.load(imagebind_ckpt_path))
 
     return model
 
 
 def save_module(module_dict: nn.ModuleDict, module_name: str = "",
-                checkpoint_dir: str = "./.checkpoints/full", postfix: str = "_last",
+                checkpoint_dir: str = "./pretrained_ckpt", postfix: str = "_last",
                 extension: str = "pth"):
     try:
         torch.save(module_dict.state_dict(),
@@ -518,11 +519,16 @@ def save_module(module_dict: nn.ModuleDict, module_name: str = "",
 
 
 def load_module(module_dict: nn.ModuleDict, module_name: str = "",
-                checkpoint_dir: str = "./.checkpoints/full", postfix: str = "_last",
+                checkpoint_dir: str = "./pretrained_ckpt", postfix: str = "_last",
                 extension: str = "pth"):
     try:
-        module_dict.load_state_dict(torch.load(
-                   os.path.join(checkpoint_dir, f"imagebind-{module_name}{postfix}.{extension}")), strict=False)
+        module_dict.load_state_dict(
+            torch.load(
+                os.path.join(checkpoint_dir, f"imagebind-{module_name}{postfix}.{extension}"),
+                map_location="cuda:0"
+            ),
+            strict=False
+        )
         logging.info(f"Loaded parameters for module {module_name} from {checkpoint_dir}.")
     except FileNotFoundError:
         logging.warning(f"Could not load module parameters for {module_name} from {checkpoint_dir}.")
