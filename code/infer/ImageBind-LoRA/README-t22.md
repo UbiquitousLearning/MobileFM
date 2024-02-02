@@ -15,5 +15,5 @@ pip install -r code/infer/ImageBind-LoRA/requirements.txt
 ## Inference
 ```bash
 cd MobileFM
-python code/infer/ImageBind-LoRA/imagebind-none-cifar100.py
+python code/infer/ImageBind-LoRA/t22-cifar100.py
 ```
