@@ -1,6 +1,6 @@
 #!/bin/bash
-imagebind_ckpt_path=/workspace/model/imagebind
-vicuna_ckpt_path=/workspace/model/llama-7b
+imagebind_ckpt_path=./pandagpt/ckpt/imagebind
+vicuna_ckpt_path=./pandagpt/ckpt/llama-7b
 delta_ckpt_path=./pandagpt/ckpt/VQA.pt
 stage=2
 max_tgt_len=128

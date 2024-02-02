@@ -1,7 +1,7 @@
 #!/bin/bash
-imagebind_ckpt_path=/workspace/model/imagebind
-whisper_ckpt_path=/workspace/model/whisper_ckpt/tiny-en
-vicuna_ckpt_path=/workspace/model/llama-7b
+imagebind_ckpt_path=./pandagpt/ckpt/imagebind
+whisper_ckpt_path=./pandagpt/ckpt/whisper_ckpt/tiny-en
+vicuna_ckpt_path=./pandagpt/ckpt/llama-7b
 delta_ckpt_path=./pandagpt/ckpt/SLURP.pt
 stage=2
 max_tgt_len=128
