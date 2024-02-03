@@ -131,13 +131,13 @@ def main(
             ``"gptq.int4"``: GPTQ 4-bit mode.
     """
     if not lora_path:
-        lora_path = Path("/workspace/llama-tasks/lit-llama/checkpoints/lora/agnews/lit-sst-llama-lora-8-finetuned-agnews.pth")
+        lora_path = Path("./lit-llama/checkpoints/lora/agnews/lit-sst-llama-lora-8-finetuned-agnews.pth")
     if not checkpoint_path:
-        checkpoint_path = Path(f"/workspace/model/llama/lit-llama/7B/lit-llama.pth")
+        checkpoint_path = Path(f"./model/lit-llama/7B/lit-llama.pth")
     if not tokenizer_path:
-        tokenizer_path = Path("/workspace/model/llama/lit-llama/tokenizer.model")
+        tokenizer_path = Path("./model/lit-llama/tokenizer.model")
     if not squad_dataset_path:
-        squad_dataset_path = Path("/workspace/llama-tasks/lit-llama/data/agnews/agnews_data_dev.json")
+        squad_dataset_path = Path("./lit-llama/data/agnews/agnews_data_dev.json")
 
     assert lora_path.is_file()
     assert checkpoint_path.is_file()
