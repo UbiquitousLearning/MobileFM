@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader
 
 logging.basicConfig(level=logging.INFO, force=True)
 
-lora = False
+lora = True
 linear_probing = False
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 load_head_post_proc_finetuned = True
@@ -43,32 +43,21 @@ if lora:
 
     # Load LoRA params if found
     LoRA.load_lora_modality_trunks(model.modality_trunks,
-                                   checkpoint_dir=".checkpoints/lora/rendered")
+                                   checkpoint_dir="pretrained_ckpt/rendered")
 
     if load_head_post_proc_finetuned:
         # Load postprocessors & heads
         load_module(model.modality_postprocessors, module_name="postprocessors",
-                    checkpoint_dir=".checkpoints/lora/rendered")
+                    checkpoint_dir="pretrained_ckpt/rendered")
         load_module(model.modality_heads, module_name="heads",
-                    checkpoint_dir=".checkpoints/lora/rendered")
+                    checkpoint_dir="pretrained_ckpt/rendered")
 elif linear_probing:
     # Load heads
     load_module(model.modality_heads, module_name="heads",
-                checkpoint_dir="./.checkpoints/lora/rendered")
+                checkpoint_dir="pretrained_ckpt/rendered")
 
 model.eval()
 model.to(device)
-
-'''
-import matplotlib.pyplot as plt
-import numpy as np
-
-def imshow(img):
-    img = img / 2 + 0.5
-    npimg = img.numpy()
-    plt.imshow(np.transpose(npimg, (1, 2, 0)))
-    plt.savefig('test.png')
-'''
 
 def run_inference(text_class):
     data_transform = transforms.Compose(
@@ -86,7 +75,7 @@ def run_inference(text_class):
         ]
     )
 
-    datadir = "./.datasets/RenderedSST2"
+    datadir = "code/datasets/RenderedSST2"
     test_ds = RenderedSST2(root=datadir, split="test", transform=data_transform, download=True)
     test_dl = DataLoader(dataset=test_ds, batch_size=64, shuffle=False, drop_last=False,
         num_workers=4, pin_memory=True, persistent_workers=True)

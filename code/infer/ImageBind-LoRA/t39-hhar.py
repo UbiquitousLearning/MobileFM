@@ -13,8 +13,7 @@ from torch.utils.data import DataLoader
 
 logging.basicConfig(level=logging.INFO, force=True)
 
-
-lora = False
+lora = True
 linear_probing = False
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 load_head_post_proc_finetuned = True
@@ -38,59 +37,32 @@ model = imagebind_model.imagebind_huge(pretrained=True)
 if lora:
     model.modality_trunks.update(
         LoRA.apply_lora_modality_trunks(model.modality_trunks, rank=4,
-                                        layer_idxs={ModalityType.TEXT: [0, 1, 2, 3, 4, 5, 6, 7, 8],
-                                                    ModalityType.VISION: [0, 1, 2, 3, 4, 5, 6, 7, 8]},
-                                        modality_names=[ModalityType.TEXT, ModalityType.VISION]))
+                                        layer_idxs=None,
+                                        modality_names=[ModalityType.IMU, ModalityType.TEXT]))
 
     # Load LoRA params if found
     LoRA.load_lora_modality_trunks(model.modality_trunks,
-                                   checkpoint_dir=".checkpoints/lora/hhar")
+                                   checkpoint_dir=".checkpoints/lora/500_hhar")
 
     if load_head_post_proc_finetuned:
         # Load postprocessors & heads
         load_module(model.modality_postprocessors, module_name="postprocessors",
-                    checkpoint_dir=".checkpoints/lora/hhar")
+                    checkpoint_dir=".checkpoints/lora/500_hhar")
         load_module(model.modality_heads, module_name="heads",
-                    checkpoint_dir=".checkpoints/lora/hhar")
+                    checkpoint_dir=".checkpoints/lora/500_hhar")
 elif linear_probing:
     # Load heads
     load_module(model.modality_heads, module_name="heads",
-                checkpoint_dir="./.checkpoints/lora/hhar")
+                checkpoint_dir=".checkpoints/lora/500_hhar")
 
 model.eval()
 model.to(device)
 
-'''
-import matplotlib.pyplot as plt
-import numpy as np
+test_ds = hhar(train=False)
+test_dl = DataLoader(dataset=test_ds, batch_size=64, shuffle=False, drop_last=False,
+    num_workers=4, pin_memory=True, persistent_workers=True)
 
-def imshow(img):
-    img = img / 2 + 0.5
-    npimg = img.numpy()
-    plt.imshow(np.transpose(npimg, (1, 2, 0)))
-    plt.savefig('test.png')
-'''
-
-def run_inference(text_class):
-    data_transform = transforms.Compose(
-        [
-            transforms.Grayscale(num_output_channels=3),
-            transforms.Resize(
-                224, interpolation=transforms.InterpolationMode.BICUBIC
-            ),
-            transforms.CenterCrop(224),
-            transforms.ToTensor(),
-            transforms.Normalize(
-                mean=(0.48145466, 0.4578275, 0.40821073),
-                std=(0.26862954, 0.26130258, 0.27577711),
-            ),
-        ]
-    )
-
-    test_ds = hhar(train=False)
-    test_dl = DataLoader(dataset=test_ds, batch_size=64, shuffle=False, drop_last=False,
-        num_workers=4, pin_memory=True, persistent_workers=True)
-    
+def run_inference():
     test_correct = 0
     test_total = 0
     with torch.no_grad():
@@ -104,7 +76,6 @@ def run_inference(text_class):
             
             embeddings = model(inputs)
             match_value_1 = embeddings[ModalityType.IMU]@embeddings[ModalityType.TEXT].T * (lora_factor if lora else 1)
-
             result_1 = torch.softmax(match_value_1, dim=-1)
             _, predicted = torch.max(result_1, -1)
             correct = predicted.eq(target).sum()
@@ -114,6 +85,6 @@ def run_inference(text_class):
     
     return test_correct / test_total
 
-Accuracy = run_inference(text_list)
+Accuracy = run_inference()
 
 print("Model Performance:", Accuracy)

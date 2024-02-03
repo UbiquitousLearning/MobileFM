@@ -6,10 +6,7 @@ import torchvision
 from models import imagebind_model
 from models.imagebind_model import ModalityType, load_module
 from models import lora as LoRA
-
-from torchvision import transforms
-from datasets.harsmart import HARsmart
-from torch.utils.data import DataLoader
+from datasets.iecocap import SubsetSC
 
 logging.basicConfig(level=logging.INFO, force=True)
 
@@ -30,10 +27,8 @@ else:
     # This assumes proper loading of all params but results in shift from original dist in case of LoRA
     lora_factor = 1
 
-text_list = ["WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING", "STANDING", "LAYING"]
-text_list = [text.lower() for text in text_list]
+text_list = ["neutral", "happy", "angry", "sadness", "excited", "frustrated"]
 
-# Instantiate model
 model = imagebind_model.imagebind_huge(pretrained=True)
 if lora:
     model.modality_trunks.update(
@@ -44,18 +39,18 @@ if lora:
 
     # Load LoRA params if found
     LoRA.load_lora_modality_trunks(model.modality_trunks,
-                                   checkpoint_dir=".checkpoints/lora/harsmart")
+                                   checkpoint_dir=".checkpoints/lora/90_speech", postfix="_last")
 
     if load_head_post_proc_finetuned:
         # Load postprocessors & heads
         load_module(model.modality_postprocessors, module_name="postprocessors",
-                    checkpoint_dir=".checkpoints/lora/harsmart")
+                    checkpoint_dir=".checkpoints/lora/90_speech", postfix="_last")
         load_module(model.modality_heads, module_name="heads",
-                    checkpoint_dir=".checkpoints/lora/harsmart")
+                    checkpoint_dir=".checkpoints/lora/90_speech", postfix="_last")
 elif linear_probing:
     # Load heads
     load_module(model.modality_heads, module_name="heads",
-                checkpoint_dir="./.checkpoints/lora/harsmart")
+                checkpoint_dir="./.checkpoints/lora/90_speech", postfix="_last")
 
 model.eval()
 model.to(device)
@@ -72,39 +67,23 @@ def imshow(img):
 '''
 
 def run_inference(text_class):
-    data_transform = transforms.Compose(
-        [
-            transforms.Grayscale(num_output_channels=3),
-            transforms.Resize(
-                224, interpolation=transforms.InterpolationMode.BICUBIC
-            ),
-            transforms.CenterCrop(224),
-            transforms.ToTensor(),
-            transforms.Normalize(
-                mean=(0.48145466, 0.4578275, 0.40821073),
-                std=(0.26862954, 0.26130258, 0.27577711),
-            ),
-        ]
-    )
-
-    test_ds = HARsmart(train=False)
-    test_dl = DataLoader(dataset=test_ds, batch_size=64, shuffle=False, drop_last=False,
-        num_workers=4, pin_memory=True, persistent_workers=True)
+    val_dataset = SubsetSC(sessions=tuple(str(5)))
+    val_loader = torch.utils.data.DataLoader(dataset=val_dataset, batch_size=64, shuffle=False, drop_last=False,
+        num_workers=8, pin_memory=True, persistent_workers=True)
     
     test_correct = 0
     test_total = 0
     with torch.no_grad():
-        for batch_idx, (x, target) in enumerate(test_dl):
+        for batch_idx, (x, target) in enumerate(val_loader):
             x = x.to(device)
             target = target.to(device)
             inputs = {
-                ModalityType.IMU: x,
+                ModalityType.AUDIO: x,
                 ModalityType.TEXT: data.load_and_transform_text(text_list, device),
             }
             
             embeddings = model(inputs)
-            match_value_1 = embeddings[ModalityType.IMU]@embeddings[ModalityType.TEXT].T * (lora_factor if lora else 1)
-
+            match_value_1 = embeddings[ModalityType.AUDIO]@embeddings[ModalityType.TEXT].T * (lora_factor if lora else 1)
             result_1 = torch.softmax(match_value_1, dim=-1)
             _, predicted = torch.max(result_1, -1)
             correct = predicted.eq(target).sum()
@@ -115,5 +94,4 @@ def run_inference(text_class):
     return test_correct / test_total
 
 Accuracy = run_inference(text_list)
-
 print("Model Performance:", Accuracy)

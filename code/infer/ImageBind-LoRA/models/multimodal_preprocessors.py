@@ -667,8 +667,10 @@ class IMUPreprocessor(VerboseNNModule):
         imu = imu.unfold(
             -1,
             self.kernel_size,
-            self.kernel_size,
-        ).permute(0, 2, 1, 3)
+            int(self.kernel_size / 4),
+        )
+        imu = torch.nn.functional.pad(imu, (0, 0, 0, 3), mode='constant', value=0)
+        imu = imu.permute(0, 2, 1, 3)
         imu = imu.reshape(imu.size(0), imu.size(1), -1)
 
         imu_tokens = self.tokenize_input_and_cls_pos(

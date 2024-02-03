@@ -42,18 +42,18 @@ if lora:
 
     # Load LoRA params if found
     LoRA.load_lora_modality_trunks(model.modality_trunks,
-                                   checkpoint_dir=".checkpoints/lora/500_motion")
+                                   checkpoint_dir="pretrained_ckpt/motion")
 
     if load_head_post_proc_finetuned:
         # Load postprocessors & heads
         load_module(model.modality_postprocessors, module_name="postprocessors",
-                    checkpoint_dir=".checkpoints/lora/500_motion")
+                    checkpoint_dir="pretrained_ckpt/motion")
         load_module(model.modality_heads, module_name="heads",
-                    checkpoint_dir=".checkpoints/lora/500_motion")
+                    checkpoint_dir="pretrained_ckpt/motion")
 elif linear_probing:
     # Load heads
     load_module(model.modality_heads, module_name="heads",
-                checkpoint_dir="./.checkpoints/lora/500_motion")
+                checkpoint_dir="./pretrained_ckpt/motion")
 
 model.eval()
 model.to(device)

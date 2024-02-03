@@ -30,7 +30,7 @@ def load_and_transform_single_audio_data(
         waveform = torchaudio.functional.resample(
             waveform, orig_freq=sr, new_freq=sample_rate
         )
-    waveform = waveform.repeat(1, 4)
+    # waveform = waveform.repeat(1, 4)
 
     all_clips_timepoints = get_clip_timepoints(
         clip_sampler, waveform.size(1) / sample_rate

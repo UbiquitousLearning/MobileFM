@@ -13,6 +13,13 @@ pip install -r code/infer/ImageBind-LoRA/requirements.txt
 ```
 
 ## Inference
+### Task-21 Optical character recongnition
+Task-21 optical character recongnition use `Rendered SST2` dataset.
+```bash
+cd MobileFM
+python code/infer/ImageBind-LoRA/t21-rendered.py
+```
+
 ### Task-22 Image classification
 Task-22 image classification use `cifar100` dataset.
 ```bash
@@ -20,9 +27,9 @@ cd MobileFM
 python code/infer/ImageBind-LoRA/t22-cifar100.py
 ```
 
-### Task-23 Image classification
-Task-23 image classification use `imagenet` dataset.
+### Task-40 Human activity recognition
+Task-40 human activity recognition use `MotionSense` dataset.
 ```bash
 cd MobileFM
-python code/infer/ImageBind-LoRA/t23-imagenet.py
+python code/infer/ImageBind-LoRA/t40-motion.py
 ```
