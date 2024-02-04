@@ -7,7 +7,7 @@
 We use the Task-21 Optical Character Recognition as an example to demonstrate the inference process of M4.
 
 ```
-code/infer/ImageBind-LoRA
+cd code/infer/ImageBind-LoRA
 ```
 
 **2.1 Environment Installation:**
@@ -25,8 +25,7 @@ pip install -r requirements.txt
 Task-21 optical character recognition use `Rendered SST2` dataset.
 
 ```
-cd MobileFM
-python code/infer/ImageBind-LoRA/t21-rendered.py
+python t21-rendered.py
 ```
 
 ## 3. Inference
