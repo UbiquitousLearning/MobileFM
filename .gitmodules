@@ -7,12 +7,6 @@
 [submodule "pandagpt"]
 	path = code/model/pandagpt
 	url = https://github.com/yxuansu/PandaGPT.git
-[submodule "code/Benchmark/mllm"]
-	path = code/Benchmark/mllm
-	url = https://github.com/UbiquitousLearning/mllm.git
-[submodule "code/Benchmark/mmpretrain"]
-	path = code/Benchmark/mmpretrain
-	url = https://github.com/open-mmlab/mmpretrain.git
 [submodule "code/mobile/mllm"]
 	path = code/mobile/mllm
 	url = https://github.com/UbiquitousLearning/mllm.git
