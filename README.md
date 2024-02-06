@@ -7,7 +7,7 @@
 We use the Task-21 Optical Character Recognition as an example to demonstrate the inference process of M4.
 
 ```
-cd code/infer/ImageBind-LoRA
+cd code/infer/Path-3
 ```
 
 **2.1 Environment Installation:**
@@ -30,23 +30,23 @@ python t21-rendered.py
 
 ## 3. Inference
 
-The inference code for M4 on 50 tasks is stored in the `code/infer` directory. It is organized based on the underlying model into three folders: `imagebind`, `pandagpt`, and `llama`. Each folder contains detailed instructions,  dependencies, and code for the inference of each task. Pretrained weights for each task are stored in the `pretrained_ckpt` path.
+The inference code for M4 on 50 tasks is stored in the `code/infer` directory. It is organized based on the underlying model into three folders: `Path-1`, `Path-2`, and `Path-3`. Each folder contains detailed instructions,  dependencies, and code for the inference of each task. Pretrained weights for each task are stored in the `pretrained_ckpt` path.
 
 **Task Index**
-```
+
+| Path                      | Task                                                                |
+| ------------------------- | --------------------------------------------------------------------|
+| code/infer/Path-3         | T14, T15, T16, T18, ..., T31, T35, T36, T38, T39, T40, T46, T47, T48|
+| code/infer/Path-2         | T1, T2, T3, ..., T13                                                |
+| code/infer/Path-1         | T32, T33, T34, T37, T42, ..., T45, T49, T50                         |
+
+<!-- 
 | Path                      | Task                                        |
 | ------------------------- | ------------------------------------------- |
 | code/infer/ImageBind-LoRA | T21, T22, T23, T29, T35, T39, T40, T46, T47 |
 | code/infer/llama-tasks    | T8                                          |
 | code/infer/pandagpt-tasks | T49, T33, T34, T37                          |
-```
-
-| Path                      | Task                                        |
-| ------------------------- | ------------------------------------------- |
-| code/infer/ImageBind-LoRA | T21, T22, T23, T29, T35, T39, T40, T46, T47 |
-| code/infer/llama-tasks    | T8                                          |
-| code/infer/pandagpt-tasks | T49, T33, T34, T37                          |
-
+-->
 ## 4. Benchmark Usage
 
 ## 5. Mobile Deployment
