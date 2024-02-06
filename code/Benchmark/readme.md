@@ -44,3 +44,22 @@ booktitle={CVPR},
 year={2019}
 }
 ```
+
+
+## Task-1 Input word prediction
+
+### Install
+Install the Pytorch package with the correct cuda version, for example
+
+```bash
+pip install torch==1.13.1+cu117 -f https://download.pytorch.org/whl/torch/
+```
+
+### Inference
+The dataset is PTB dataset, and we already put it in [./penn] directory.
+```shell
+python test.py
+```
+
+### References
+[Language-Model-Next-Word-Prediction](https://github.com/friedrichor/Language-Model-Next-Word-Prediction)
