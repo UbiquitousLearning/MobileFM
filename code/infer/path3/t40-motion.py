@@ -53,7 +53,7 @@ if lora:
 elif linear_probing:
     # Load heads
     load_module(model.modality_heads, module_name="heads",
-                checkpoint_dir="./pretrained_ckpt/motion")
+                checkpoint_dir="pretrained_ckpt/motion")
 
 model.eval()
 model.to(device)

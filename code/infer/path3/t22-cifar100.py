@@ -143,18 +143,18 @@ if lora:
 
     # Load LoRA params if found
     LoRA.load_lora_modality_trunks(model.modality_trunks,
-                                   checkpoint_dir="pretrained_ckpt/imagebind-none-cifar100", postfix="_last")
+                                   checkpoint_dir="pretrained_ckpt/cifar100", postfix="_last")
 
     if load_head_post_proc_finetuned:
         # Load postprocessors & heads
         load_module(model.modality_postprocessors, module_name="postprocessors",
-                    checkpoint_dir="pretrained_ckpt/imagebind-none-cifar100", postfix="_last")
+                    checkpoint_dir="pretrained_ckpt/cifar100", postfix="_last")
         load_module(model.modality_heads, module_name="heads",
-                    checkpoint_dir="pretrained_ckpt/imagebind-none-cifar100", postfix="_last")
+                    checkpoint_dir="pretrained_ckpt/cifar100", postfix="_last")
 elif linear_probing:
     # Load heads
     load_module(model.modality_heads, module_name="heads",
-                checkpoint_dir="./pretrained_ckpt/imagebind-none-cifar100", postfix="_last")
+                checkpoint_dir="pretrained_ckpt/cifar100", postfix="_last")
 
 model.eval()
 model.to(device)
