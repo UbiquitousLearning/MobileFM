@@ -42,6 +42,8 @@ The inference code for M4 on 50 tasks is stored in the `code/infer` directory. I
 
 ## 4. Benchmark Usage
 
-## 4. Future File Structure
+## 5. Mobile Deployment
+
+## 6. Future Work
 
 Additional code for this project will be made available in the repository shortly. To facilitate understanding of the project, we have pre-created a file tree for the entire project. The training code will be uploaded to the `code/train` path, and the parameters for model training will be uploaded in YAML format to the `code/configs` path.
