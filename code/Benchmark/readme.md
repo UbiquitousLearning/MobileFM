@@ -13,7 +13,7 @@ git clone --recurse-submodules -j8 https://github.com/UbiquitousLearning/MobileF
 conda create -n open-mmlab python=3.8 pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 -c pytorch -y
 conda activate open-mmlab
 pip install openmim
-cd code/Benchmark/mmpretrain
+cd MobileFM/code/Benchmark/mmpretrain
 mim install -e .
 ```
 
@@ -22,7 +22,7 @@ Please refer to [installation documentation](https://mmpretrain.readthedocs.io/e
 ### Inference
 Task-16 Image retrieval use `Inshop` dataset.
 ```shell
-cd code/Benchmark/mmpretrain
+cd MobileFM/code/Benchmark/mmpretrain
 python tools/test.py configs/arcface/resnet50-arcface_8xb32_inshop.py https://download.openmmlab.com/mmclassification/v0/arcface/resnet50-arcface_inshop_20230202-b766fe7f.pth
 ```
 
