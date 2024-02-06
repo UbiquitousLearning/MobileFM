@@ -33,6 +33,13 @@ python t21-rendered.py
 The inference code for M4 on 50 tasks is stored in the `code/infer` directory. It is organized based on the underlying model into three folders: `imagebind`, `pandagpt`, and `llama`. Each folder contains detailed instructions,  dependencies, and code for the inference of each task. Pretrained weights for each task are stored in the `pretrained_ckpt` path.
 
 **Task Index**
+```
+| Path                      | Task                                        |
+| ------------------------- | ------------------------------------------- |
+| code/infer/ImageBind-LoRA | T21, T22, T23, T29, T35, T39, T40, T46, T47 |
+| code/infer/llama-tasks    | T8                                          |
+| code/infer/pandagpt-tasks | T49, T33, T34, T37                          |
+```
 
 | Path                      | Task                                        |
 | ------------------------- | ------------------------------------------- |
@@ -42,6 +49,8 @@ The inference code for M4 on 50 tasks is stored in the `code/infer` directory. I
 
 ## 4. Benchmark Usage
 
-## 4. Future File Structure
+## 5. Mobile Deployment
+
+## 6. Future Work
 
 Additional code for this project will be made available in the repository shortly. To facilitate understanding of the project, we have pre-created a file tree for the entire project. The training code will be uploaded to the `code/train` path, and the parameters for model training will be uploaded in YAML format to the `code/configs` path.
