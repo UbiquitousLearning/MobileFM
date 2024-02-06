@@ -36,9 +36,9 @@ The inference code for M4 on 50 tasks is stored in the `code/infer` directory. I
 
 | Path                      | Task                                                                |
 | ------------------------- | --------------------------------------------------------------------|
-| code/infer/Path-3         | T14, T15, T16, T18, ..., T31, T35, T36, T38, T39, T40, T46, T47, T48|
-| code/infer/Path-2         | T1, T2, T3, ..., T13                                                |
-| code/infer/Path-1         | T32, T33, T34, T37, T42, ..., T45, T49, T50                         |
+| code/infer/path3         | T14, T15, T16, T18, ..., T31, T35, T36, T38, T39, T40, T46, T47, T48|
+| code/infer/path2         | T1, T2, T3, ..., T13                                                |
+| code/infer/path1         | T32, T33, T34, T37, T42, ..., T45, T49, T50                         |
 
 <!-- 
 | Path                      | Task                                        |
