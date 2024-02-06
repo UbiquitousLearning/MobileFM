@@ -22,6 +22,7 @@ Please refer to [installation documentation](https://mmpretrain.readthedocs.io/e
 ### Inference
 Task-16 Image retrieval use `Inshop` dataset.
 ```shell
+cd code/Benchmark/mmpretrain
 python tools/test.py configs/arcface/resnet50-arcface_8xb32_inshop.py https://download.openmmlab.com/mmclassification/v0/arcface/resnet50-arcface_inshop_20230202-b766fe7f.pth
 ```
 
@@ -33,7 +34,9 @@ python tools/test.py configs/arcface/resnet50-arcface_8xb32_inshop.py https://do
     howpublished = {\url{https://github.com/open-mmlab/mmpretrain}},
     year={2023}
 }
+```
 
+```bibtex
 @inproceedings{deng2018arcface,
 title={ArcFace: Additive Angular Margin Loss for Deep Face Recognition},
 author={Deng, Jiankang and Guo, Jia and Niannan, Xue and Zafeiriou, Stefanos},
