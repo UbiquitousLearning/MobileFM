@@ -1,484 +1,0 @@
-[2023-07-10 20:04:23,631] [WARNING] [runner.py:191:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
-Detected CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 but ignoring it because one or several of --include/--exclude/--num_gpus/--num_nodes cl args were used. If you want to use CUDA_VISIBLE_DEVICES don't pass any of these arguments to deepspeed.
-[2023-07-10 20:04:25,547] [INFO] [runner.py:541:main] cmd = /home/bingxing2/gpuuser590/.conda/envs/pandagpt/bin/python -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMCwgMSwgMiwgMywgNCwgNSwgNiwgN119 --master_addr=127.0.0.1 --master_port=28457 --enable_each_rank_log=None train_sft.py --model openllama_peft --stage 1 --data_path /home/bingxing2/gpuuser590/yx/dataset/KeyWordSpotting/train.json --image_root_path /home/bingxing2/gpuuser590/yx/dataset/KeyWordSpotting --imagebind_ckpt_path ../pretrained_ckpt/imagebind_ckpt/ --whisper_ckpt_path ../pretrained_ckpt/whisper_ckpt/tiny-en/ --vicuna_ckpt_path ../pretrained_ckpt/llama-7b/ --max_tgt_len 400 --save_path ../ckpt/pandagpt_7b_v0_peft/ --log_path ../ckpt/pandagpt_7b_v0_peft/log_rest/
-[2023-07-10 20:04:30,134] [INFO] [launch.py:229:main] WORLD INFO DICT: {'localhost': [0, 1, 2, 3, 4, 5, 6, 7]}
-[2023-07-10 20:04:30,134] [INFO] [launch.py:235:main] nnodes=1, num_local_procs=8, node_rank=0
-[2023-07-10 20:04:30,134] [INFO] [launch.py:246:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2, 3, 4, 5, 6, 7]})
-[2023-07-10 20:04:30,135] [INFO] [launch.py:247:main] dist_world_size=8
-[2023-07-10 20:04:30,135] [INFO] [launch.py:249:main] Setting CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
-  warnings.warn(
-[!] load base configuration: config/base.yaml
-[!] load configuration from config/openllama_peft.yaml
-[!] load base configuration: config/base.yaml
-[!] load configuration from config/openllama_peft.yaml
-[!] load base configuration: config/base.yaml
-[!] load configuration from config/openllama_peft.yaml
-[!] load base configuration: config/base.yaml
-[!] load base configuration: config/base.yaml[!] load configuration from config/openllama_peft.yaml
-
-[!] load configuration from config/openllama_peft.yaml
-[!] load base configuration: config/base.yaml
-[!] load configuration from config/openllama_peft.yaml
-[!] load base configuration: config/base.yaml
-[!] load configuration from config/openllama_peft.yaml
-[!] load base configuration: config/base.yaml
-[!] load configuration from config/openllama_peft.yaml
-[2023-07-10 20:04:43,434] [INFO] [comm.py:622:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
-[!] collect 36923 samples for training[!] collect 36923 samples for training
-[!] collect 36923 samples for training
-[!] collect 36923 samples for training
-
-Initializing visual encoder from ../pretrained_ckpt/whisper_ckpt/tiny-en/ ...
-Initializing visual encoder from ../pretrained_ckpt/whisper_ckpt/tiny-en/ ...
-Initializing visual encoder from ../pretrained_ckpt/whisper_ckpt/tiny-en/ ...
-Initializing visual encoder from ../pretrained_ckpt/whisper_ckpt/tiny-en/ ...
-[!] collect 36923 samples for training
-[!] collect 36923 samples for training
-Initializing visual encoder from ../pretrained_ckpt/whisper_ckpt/tiny-en/ ...
-Initializing visual encoder from ../pretrained_ckpt/whisper_ckpt/tiny-en/ ...
-[!] collect 36923 samples for training[!] collect 36923 samples for training
-
-Initializing visual encoder from ../pretrained_ckpt/whisper_ckpt/tiny-en/ ...Initializing visual encoder from ../pretrained_ckpt/whisper_ckpt/tiny-en/ ...
-
-Visual encoder initialized.
-Initializing language decoder from ../pretrained_ckpt/llama-7b/ ...
-Visual encoder initialized.
-Initializing language decoder from ../pretrained_ckpt/llama-7b/ ...
-Visual encoder initialized.
-Initializing language decoder from ../pretrained_ckpt/llama-7b/ ...
-Visual encoder initialized.
-Initializing language decoder from ../pretrained_ckpt/llama-7b/ ...
-Visual encoder initialized.
-Initializing language decoder from ../pretrained_ckpt/llama-7b/ ...
-Visual encoder initialized.
-Initializing language decoder from ../pretrained_ckpt/llama-7b/ ...
-Visual encoder initialized.
-Initializing language decoder from ../pretrained_ckpt/llama-7b/ ...
-Visual encoder initialized.
-Initializing language decoder from ../pretrained_ckpt/llama-7b/ ...
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:19<00:19, 19.93s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:22<00:22, 22.50s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.66s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:24<00:24, 24.90s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:23<00:23, 23.67s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.26s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:24<00:24, 24.79s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:26<00:26, 26.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:26<00:00, 12.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:26<00:00, 13.38s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 13.50s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 14.85s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 13.53s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 15.24s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:31<00:00, 14.24s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:31<00:00, 15.96s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 13.50s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 15.03s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:31<00:00, 14.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:31<00:00, 15.73s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:33<00:00, 15.02s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:33<00:00, 16.56s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 15.69s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 17.27s/it]
-trainable params: 33554432 || all params: 6771970048 || trainable%: 0.49548996469513035
-Language decoder initialized.
-model init done!
-[2023-07-10 20:06:38,880] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.9.2, git-hash=unknown, git-branch=unknown
-[2023-07-10 20:06:38,881] [INFO] [comm.py:616:init_distributed] Distributed backend already initialized
-trainable params: 33554432 || all params: 6771970048 || trainable%: 0.49548996469513035
-Language decoder initialized.
-model init done!
-trainable params: 33554432 || all params: 6771970048 || trainable%: 0.49548996469513035
-Language decoder initialized.
-model init done!
-trainable params: 33554432 || all params: 6771970048 || trainable%: 0.49548996469513035
-trainable params: 33554432 || all params: 6771970048 || trainable%: 0.49548996469513035
-Language decoder initialized.
-model init done!
-Language decoder initialized.
-model init done!
-trainable params: 33554432 || all params: 6771970048 || trainable%: 0.49548996469513035
-Language decoder initialized.
-model init done!
-trainable params: 33554432 || all params: 6771970048 || trainable%: 0.49548996469513035
-Language decoder initialized.
-model init done!
-trainable params: 33554432 || all params: 6771970048 || trainable%: 0.49548996469513035
-Language decoder initialized.
-model init done!
-[2023-07-10 20:07:31,346] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-
-
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Detected CUDA files, patching ldflags
-Emitting ninja build file /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116/fused_adam/build.ninja...
-Building extension module fused_adam...
-Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
-ninja: no work to do.
-Loading extension module fused_adam...
-Time to load fused_adam op: 1.0518038272857666 seconds
-Loading extension module fused_adam...
-Loading extension module fused_adam...
-Loading extension module fused_adam...
-Time to load fused_adam op: 1.118401288986206 seconds
-Loading extension module fused_adam...
-Time to load fused_adam op: 1.1190311908721924 seconds
-Time to load fused_adam op: 1.1179423332214355 seconds
-Time to load fused_adam op: 1.1052625179290771 seconds
-[2023-07-10 20:07:33,241] [INFO] [logging.py:96:log_dist] [Rank 0] Using DeepSpeed Optimizer param name adam as basic optimizer
-Loading extension module fused_adam...
-Time to load fused_adam op: 1.1064493656158447 seconds
-Loading extension module fused_adam...
-Time to load fused_adam op: 1.1056511402130127 seconds
-Loading extension module fused_adam...
-Time to load fused_adam op: 1.1075730323791504 seconds
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-[2023-07-10 20:07:33,370] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = FusedAdam
-[2023-07-10 20:07:33,370] [INFO] [utils.py:54:is_zero_supported_optimizer] Checking ZeRO support for optimizer=FusedAdam type=<class 'deepspeed.ops.adam.fused_adam.FusedAdam'>
-[2023-07-10 20:07:33,370] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.float16 ZeRO stage 2 optimizer
-[2023-07-10 20:07:33,370] [INFO] [stage_1_and_2.py:133:__init__] Reduce bucket size 500,000,000
-[2023-07-10 20:07:33,370] [INFO] [stage_1_and_2.py:134:__init__] Allgather bucket size 500000000
-[2023-07-10 20:07:33,370] [INFO] [stage_1_and_2.py:135:__init__] CPU Offload: False
-[2023-07-10 20:07:33,370] [INFO] [stage_1_and_2.py:136:__init__] Round robin gradient partitioning: False
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Emitting ninja build file /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116/utils/build.ninja...
-Building extension module utils...
-Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
-ninja: no work to do.
-Loading extension module utils...
-Loading extension module utils...
-Time to load utils op: 0.9054429531097412 seconds
-Time to load utils op: 0.8054616451263428 seconds
-Loading extension module utils...
-Time to load utils op: 0.8055062294006348 seconds
-Loading extension module utils...
-Loading extension module utils...
-Time to load utils op: 0.9049317836761475 seconds
-Time to load utils op: 0.9052042961120605 seconds
-Loading extension module utils...
-Time to load utils op: 0.9049201011657715 seconds
-Loading extension module utils...
-Time to load utils op: 0.9052243232727051 seconds
-Loading extension module utils...
-Time to load utils op: 0.9643564224243164 seconds
-Rank: 7 partition count [8] and sizes[(4194304, False)] 
-Rank: 4 partition count [8] and sizes[(4194304, False)] 
-Rank: 2 partition count [8] and sizes[(4194304, False)] 
-Rank: 1 partition count [8] and sizes[(4194304, False)] Rank: 3 partition count [8] and sizes[(4194304, False)] 
-
-Rank: 5 partition count [8] and sizes[(4194304, False)] 
-Rank: 0 partition count [8] and sizes[(4194304, False)] 
-Rank: 6 partition count [8] and sizes[(4194304, False)] 
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-No modifications detected for re-loaded extension module utils, skipping build step...
-Loading extension module utils...
-Time to load utils op: 0.005063295364379883 secondsodule utils, skipping build step...
-
-oading extension module utils...
-Time to load utils op: 0.005895853042602539 secondsodule utils, skipping build step...
-Loading extension module utils...
-Time to load utils op: 0.005989551544189453 secondsodule utils, skipping build step...
-Loading extension module utils...
-Time to load utils op: 0.006959438323974609 secondsodule utils, skipping build step...
-Loading extension module utils...
-Time to load utils op: 0.007843255996704102 secondsodule utils, skipping build step...
-o modifications detected for re-loaded extension module utils, skipping build step...
-
-Loading extension module utils...Loading extension module utils...
-
-Time to load utils op: 0.007211923599243164 seconds
-Time to load utils op: 0.010709524154663086 seconds
-[2023-07-10 20:07:51,734] [INFO] [utils.py:785:see_memory_usage] Before initializing optimizer states
-[2023-07-10 20:07:51,735] [INFO] [utils.py:786:see_memory_usage] MA 12.73 GB         Max_MA 12.74 GB         CA 12.81 GB         Max_CA 13 GB 
-[2023-07-10 20:07:51,735] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 38.87 GB, percent = 10.3%
-[2023-07-10 20:07:51,811] [INFO] [utils.py:785:see_memory_usage] After initializing optimizer states
-[2023-07-10 20:07:51,812] [INFO] [utils.py:786:see_memory_usage] MA 12.76 GB         Max_MA 12.78 GB         CA 12.85 GB         Max_CA 13 GB 
-[2023-07-10 20:07:51,812] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 38.87 GB, percent = 10.3%
-[2023-07-10 20:07:51,813] [INFO] [stage_1_and_2.py:489:__init__] optimizer state initialized
-[2023-07-10 20:07:51,885] [INFO] [utils.py:785:see_memory_usage] After initializing ZeRO optimizer
-[2023-07-10 20:07:51,886] [INFO] [utils.py:786:see_memory_usage] MA 12.76 GB         Max_MA 12.76 GB         CA 12.85 GB         Max_CA 13 GB 
-[2023-07-10 20:07:51,886] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 38.87 GB, percent = 10.3%
-[2023-07-10 20:07:51,890] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = adam
-[2023-07-10 20:07:51,890] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using configured LR scheduler = WarmupDecayLR
-[2023-07-10 20:07:51,891] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = <deepspeed.runtime.lr_schedules.WarmupDecayLR object at 0x2ba574a74910>
-[2023-07-10 20:07:51,891] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0005], mom=[[0.9, 0.95]]
-[2023-07-10 20:07:51,897] [INFO] [config.py:955:print] DeepSpeedEngine configuration:
-[2023-07-10 20:07:51,898] [INFO] [config.py:959:print]   activation_checkpointing_config  {
-    "partition_activations": true, 
-    "contiguous_memory_optimization": false, 
-    "cpu_checkpointing": true, 
-    "number_checkpoints": null, 
-    "synchronize_checkpoint_boundary": false, 
-    "profile": false
-}
-[2023-07-10 20:07:51,898] [INFO] [config.py:959:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
-[2023-07-10 20:07:51,899] [INFO] [config.py:959:print]   amp_enabled .................. False
-[2023-07-10 20:07:51,899] [INFO] [config.py:959:print]   amp_params ................... False
-[2023-07-10 20:07:51,900] [INFO] [config.py:959:print]   autotuning_config ............ {
-    "enabled": false, 
-    "start_step": null, 
-    "end_step": null, 
-    "metric_path": null, 
-    "arg_mappings": null, 
-    "metric": "throughput", 
-    "model_info": null, 
-    "results_dir": "autotuning_results", 
-    "exps_dir": "autotuning_exps", 
-    "overwrite": true, 
-    "fast": true, 
-    "start_profile_step": 3, 
-    "end_profile_step": 5, 
-    "tuner_type": "gridsearch", 
-    "tuner_early_stopping": 5, 
-    "tuner_num_trials": 50, 
-    "model_info_path": null, 
-    "mp_size": 1, 
-    "max_train_batch_size": null, 
-    "min_train_batch_size": 1, 
-    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
-    "min_train_micro_batch_size_per_gpu": 1, 
-    "num_tuning_micro_batch_sizes": 3
-}
-[2023-07-10 20:07:51,900] [INFO] [config.py:959:print]   bfloat16_enabled ............. False
-[2023-07-10 20:07:51,900] [INFO] [config.py:959:print]   checkpoint_parallel_write_pipeline  False
-[2023-07-10 20:07:51,901] [INFO] [config.py:959:print]   checkpoint_tag_validation_enabled  True
-[2023-07-10 20:07:51,901] [INFO] [config.py:959:print]   checkpoint_tag_validation_fail  False
-[2023-07-10 20:07:51,901] [INFO] [config.py:959:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x2ba54ffa3a90>
-[2023-07-10 20:07:51,901] [INFO] [config.py:959:print]   communication_data_type ...... None
-[2023-07-10 20:07:51,902] [INFO] [config.py:959:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
-[2023-07-10 20:07:51,902] [INFO] [config.py:959:print]   curriculum_enabled_legacy .... False
-[2023-07-10 20:07:51,902] [INFO] [config.py:959:print]   curriculum_params_legacy ..... False
-[2023-07-10 20:07:51,902] [INFO] [config.py:959:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
-[2023-07-10 20:07:51,902] [INFO] [config.py:959:print]   data_efficiency_enabled ...... False
-[2023-07-10 20:07:51,903] [INFO] [config.py:959:print]   dataloader_drop_last ......... False
-[2023-07-10 20:07:51,903] [INFO] [config.py:959:print]   disable_allgather ............ False
-[2023-07-10 20:07:51,903] [INFO] [config.py:959:print]   dump_state ................... False
-[2023-07-10 20:07:51,903] [INFO] [config.py:959:print]   dynamic_loss_scale_args ...... {'init_scale': 65536, 'scale_window': 1000, 'delayed_shift': 2, 'min_scale': 1}
-[2023-07-10 20:07:51,904] [INFO] [config.py:959:print]   eigenvalue_enabled ........... False
-[2023-07-10 20:07:51,904] [INFO] [config.py:959:print]   eigenvalue_gas_boundary_resolution  1
-[2023-07-10 20:07:51,904] [INFO] [config.py:959:print]   eigenvalue_layer_name ........ bert.encoder.layer
-[2023-07-10 20:07:51,904] [INFO] [config.py:959:print]   eigenvalue_layer_num ......... 0
-[2023-07-10 20:07:51,905] [INFO] [config.py:959:print]   eigenvalue_max_iter .......... 100
-[2023-07-10 20:07:51,905] [INFO] [config.py:959:print]   eigenvalue_stability ......... 1e-06
-[2023-07-10 20:07:51,905] [INFO] [config.py:959:print]   eigenvalue_tol ............... 0.01
-[2023-07-10 20:07:51,905] [INFO] [config.py:959:print]   eigenvalue_verbose ........... False
-[2023-07-10 20:07:51,906] [INFO] [config.py:959:print]   elasticity_enabled ........... False
-[2023-07-10 20:07:51,906] [INFO] [config.py:959:print]   flops_profiler_config ........ {
-    "enabled": false, 
-    "profile_step": 1, 
-    "module_depth": -1, 
-    "top_modules": 1, 
-    "detailed": true, 
-    "output_file": null
-}
-[2023-07-10 20:07:51,906] [INFO] [config.py:959:print]   fp16_auto_cast ............... False
-[2023-07-10 20:07:51,906] [INFO] [config.py:959:print]   fp16_enabled ................. True
-[2023-07-10 20:07:51,907] [INFO] [config.py:959:print]   fp16_master_weights_and_gradients  False
-[2023-07-10 20:07:51,907] [INFO] [config.py:959:print]   global_rank .................. 0
-[2023-07-10 20:07:51,907] [INFO] [config.py:959:print]   grad_accum_dtype ............. None
-[2023-07-10 20:07:51,907] [INFO] [config.py:959:print]   gradient_accumulation_steps .. 1
-[2023-07-10 20:07:51,907] [INFO] [config.py:959:print]   gradient_clipping ............ 1.0
-[2023-07-10 20:07:51,908] [INFO] [config.py:959:print]   gradient_predivide_factor .... 1.0
-[2023-07-10 20:07:51,908] [INFO] [config.py:959:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
-[2023-07-10 20:07:51,908] [INFO] [config.py:959:print]   initial_dynamic_scale ........ 65536
-[2023-07-10 20:07:51,908] [INFO] [config.py:959:print]   load_universal_checkpoint .... False
-[2023-07-10 20:07:51,909] [INFO] [config.py:959:print]   loss_scale ................... 0
-[2023-07-10 20:07:51,909] [INFO] [config.py:959:print]   memory_breakdown ............. False
-[2023-07-10 20:07:51,909] [INFO] [config.py:959:print]   mics_hierarchial_params_gather  False
-[2023-07-10 20:07:51,909] [INFO] [config.py:959:print]   mics_shard_size .............. -1
-[2023-07-10 20:07:51,909] [INFO] [config.py:959:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
-[2023-07-10 20:07:51,910] [INFO] [config.py:959:print]   nebula_config ................ {
-    "enabled": false, 
-    "persistent_storage_path": null, 
-    "persistent_time_interval": 100, 
-    "num_of_version_in_retention": 2, 
-    "enable_nebula_load": true, 
-    "load_path": null
-}
-[2023-07-10 20:07:51,910] [INFO] [config.py:959:print]   optimizer_legacy_fusion ...... False
-[2023-07-10 20:07:51,910] [INFO] [config.py:959:print]   optimizer_name ............... adam
-[2023-07-10 20:07:51,910] [INFO] [config.py:959:print]   optimizer_params ............. {'lr': 0.0005, 'betas': [0.9, 0.95], 'eps': 1e-08, 'weight_decay': 0.001}
-[2023-07-10 20:07:51,911] [INFO] [config.py:959:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
-[2023-07-10 20:07:51,911] [INFO] [config.py:959:print]   pld_enabled .................. False
-[2023-07-10 20:07:51,911] [INFO] [config.py:959:print]   pld_params ................... False
-[2023-07-10 20:07:51,911] [INFO] [config.py:959:print]   prescale_gradients ........... False
-[2023-07-10 20:07:51,911] [INFO] [config.py:959:print]   scheduler_name ............... WarmupDecayLR
-[2023-07-10 20:07:51,912] [INFO] [config.py:959:print]   scheduler_params ............. {'warmup_min_lr': 0, 'warmup_max_lr': 0.0005, 'warmup_num_steps': 57, 'total_num_steps': 576}
-[2023-07-10 20:07:51,912] [INFO] [config.py:959:print]   sparse_attention ............. None
-[2023-07-10 20:07:51,912] [INFO] [config.py:959:print]   sparse_gradients_enabled ..... False
-[2023-07-10 20:07:51,912] [INFO] [config.py:959:print]   steps_per_print .............. 1
-[2023-07-10 20:07:51,912] [INFO] [config.py:959:print]   train_batch_size ............. 128
-[2023-07-10 20:07:51,913] [INFO] [config.py:959:print]   train_micro_batch_size_per_gpu  16
-[2023-07-10 20:07:51,913] [INFO] [config.py:959:print]   use_node_local_storage ....... False
-[2023-07-10 20:07:51,913] [INFO] [config.py:959:print]   wall_clock_breakdown ......... False
-[2023-07-10 20:07:51,913] [INFO] [config.py:959:print]   world_size ................... 8
-[2023-07-10 20:07:51,913] [INFO] [config.py:959:print]   zero_allow_untested_optimizer  False
-[2023-07-10 20:07:51,914] [INFO] [config.py:959:print]   zero_config .................. stage=2 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500,000,000 allgather_partitions=True allgather_bucket_size=500000000 overlap_comm=False load_from_fp32_weights=True elastic_checkpoint=False offload_param=None offload_optimizer=None sub_group_size=1,000,000,000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50,000,000 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=1,000,000,000 max_reuse_distance=1,000,000,000 gather_16bit_weights_on_model_save=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True
-[2023-07-10 20:07:51,914] [INFO] [config.py:959:print]   zero_enabled ................. True
-[2023-07-10 20:07:51,914] [INFO] [config.py:959:print]   zero_force_ds_cpu_optimizer .. True
-[2023-07-10 20:07:51,914] [INFO] [config.py:959:print]   zero_optimization_stage ...... 2
-[2023-07-10 20:07:51,915] [INFO] [config.py:945:print_user_config]   json = {
-    "train_batch_size": 128, 
-    "train_micro_batch_size_per_gpu": 16, 
-    "gradient_accumulation_steps": 1, 
-    "steps_per_print": 1, 
-    "gradient_clipping": 1.0, 
-    "zero_optimization": {
-        "stage": 2, 
-        "contiguous_gradients": true, 
-        "allgather_bucket_size": 5.000000e+08, 
-        "allgather_partitions": true
-    }, 
-    "fp16": {
-        "enabled": true, 
-        "opt_level": "O2", 
-        "min_loss_scale": 1
-    }, 
-    "bf16": {
-        "enable": true
-    }, 
-    "optimizer": {
-        "type": "Adam", 
-        "params": {
-            "lr": 0.0005, 
-            "betas": [0.9, 0.95], 
-            "eps": 1e-08, 
-            "weight_decay": 0.001
-        }
-    }, 
-    "scheduler": {
-        "type": "WarmupDecayLR", 
-        "params": {
-            "warmup_min_lr": 0, 
-            "warmup_max_lr": 0.0005, 
-            "warmup_num_steps": 57, 
-            "total_num_steps": 576
-        }
-    }, 
-    "activation_checkpointing": {
-        "partition_activations": true, 
-        "cpu_checkpointing": true, 
-        "contiguous_memory_optimization": false, 
-        "number_checkpoints": null, 
-        "synchronize_checkpoint_boundary": false, 
-        "profile": false
-    }
-}
-Using /home/bingxing2/gpuuser590/.cache/torch_extensions/py38_cu116 as PyTorch extensions root...
-No modifications detected for re-loaded extension module utils, skipping build step...
-Loading extension module utils...
-Time to load utils op: 0.001748800277709961 seconds
-  0%|          | 0/576 [00:00<?, ?it/s]  0%|          | 0/576 [00:00<?, ?it/s]  0%|          | 0/576 [00:00<?, ?it/s]  0%|          | 0/576 [00:00<?, ?it/s]  0%|          | 0/576 [00:00<?, ?it/s]  0%|          | 0/576 [00:00<?, ?it/s]  0%|          | 0/576 [00:00<?, ?it/s]  0%|          | 0/576 [00:00<?, ?it/s]
-
-
-
-
-
-
-
-  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s][A  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/2 [00:00<?, ?it/s][A  0%|          | 0/2 [00:00<?, ?it/s][A[A[A[A[A[A/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
-  warnings.warn(
-/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
-  warnings.warn(
-[!] loss: 2.793; token_acc: 60.0:   0%|          | 0/576 [00:09<?, ?it/s][!] loss: 2.5625; token_acc: 58.57:   0%|          | 0/576 [00:09<?, ?it/s][2023-07-10 20:08:01,188] [INFO] [loss_scaler.py:188:update_scale] [deepspeed] OVERFLOW! Rank 0 Skipping step. Attempted loss scale: 65536, but hysteresis is 2. Reducing hysteresis to 1
-7:   0%|          | 0/576 [00:09<?, ?it/s][!] loss: 2.793; token_acc: 60.0:   0%|          | 1/576 [00:09<1:28:49,  9.27s/it][2023-07-10 20:08:01,189] [INFO] [logging.py:96:log_dist] [Rank 0] step=1, skipped=1, [!] loss: 2.6172; token_acc: 54.69:   0%|          | 1/576 [00:09<1:28:49,  9.27s/it][!] loss: 2.6328; token_acc: 58.33:   0%|          | 1/576 [00:09<1:28:49,  9.27s/it][!] loss: 2.8008; token_acc: 60.27:   0%|          | 1/576 [00:09<1:28:50,  9.27s/it][!] loss: 2.8145; token_acc: 59.15:   0%|          | 0/576 [00:09<?, ?it/s][!] loss: 2.5332; token_acc: 53.12:   0%|          | 0/576 [00:09<?, ?it/s][!] loss: 2.8164; token_acc: 55.22:   0%|          | 0/576 [00:09<?, ?it/s][!] loss: 2.8145; token_acc: 59.15:   0%|          | 1/576 [00:09<1:28:51,  9.27s/it][!] loss: 2.5332; token_acc: 53.12:   0%|          | 1/576 [00:09<1:28:50,  9.27s/it][!] loss: 2.8164; token_acc: 55.22:   0%|          | 1/576 [00:09<1:28:51,  9.27s/it][2023-07-10 20:08:06,160] [INFO] [loss_scaler.py:181:update_scale] [deepspeed] OVERFLOW! Rank 0 Skipping step. Attempted loss scale: 65536, reducing to 32768
-[!] loss: 2.8125; token_acc: 64.47:   0%|          | 1/576 [00:14<1:28:49,  9.27s/it][!] loss: 2.9453; token_acc: 56.72:   0%|          | 1/576 [00:14<1:28:49,  9.27s/it][!] loss: 2.6348; token_acc: 60.0:   0%|          | 1/576 [00:14<1:28:49,  9.27s/it] [!] loss: 2.8125; token_acc: 64.47:   0%|          | 2/576 [00:14<1:04:29,  6.74s/it][2023-07-10 20:08:06,160] [INFO] [logging.py:96:log_dist] [Rank 0] step=2, skipped=2, lr=[0.0005], mom=[[0.9, 0.95]]
-[!] loss: 2.9453; token_acc: 56.72:   0%|          | 2/576 [00:14<1:04:29,  6.74s/it][!] loss: 2.6348; token_acc: 60.0:   0%|          | 2/576 [00:14<1:04:29,  6.74s/it][!] loss: 2.7988; token_acc: 59.15:   0%|          | 1/576 [00:14<1:28:50,  9.27s/it][!] loss: 2.6973; token_acc: 61.43:   0%|          | 1/576 [00:14<1:28:51,  9.27s/it][!] loss: 2.7988; token_acc: 59.15:   0%|          | 2/576 [00:14<1:04:29,  6.74s/it][!] loss: 2.6973; token_acc: 61.43:   0%|          | 2/576 [00:14<1:04:29,  6.74s/it][!] loss: 2.6953; token_acc: 53.12:   0%|          | 1/576 [00:14<1:28:49,  9.27s/it][!] loss: 2.6953; token_acc: 53.12:   0%|          | 2/576 [00:14<1:04:29,  6.74s/it][!] loss: 2.9512; token_acc: 55.22:   0%|          | 1/576 [00:14<1:28:50,  9.27s/it][!] loss: 3.041; token_acc: 58.11:   0%|          | 1/576 [00:14<1:28:51,  9.27s/it] [!] loss: 2.9512; token_acc: 55.22:   0%|          | 2/576 [00:14<1:04:29,  6.74s/it][!] loss: 3.041; token_acc: 58.11:   0%|          | 2/576 [00:14<1:04:29,  6.74s/it][!] loss: 2.8672; token_acc: 54.69:   0%|          | 2/576 [00:18<1:04:29,  6.74s/it][!] loss: 2.8672; token_acc: 54.69:   1%|          | 3/576 [00:18<52:21,  5.48s/it]  [!] loss: 2.5488; token_acc: 60.0:   0%|          | 2/576 [00:18<1:04:29,  6.74s/it] [!] loss: 2.7695; token_acc: 53.73:   0%|          | 2/576 [00:18<1:04:29,  6.74s/it][!] loss: 2.5488; token_acc: 60.0:   1%|          | 3/576 [00:18<52:21,  5.48s/it]  [!] loss: 2.7695; token_acc: 53.73:   1%|          | 3/576 [00:18<52:21,  5.48s/it]  [2023-07-10 20:08:10,146] [INFO] [logging.py:96:log_dist] [Rank 0] step=3, skipped=2, lr=[0.0], mom=[[0.9, 0.95]]
-[!] loss: 2.6797; token_acc: 61.19:   0%|          | 2/576 [00:18<1:04:29,  6.74s/it][!] loss: 2.6797; token_acc: 61.19:   1%|          | 3/576 [00:18<52:22,  5.48s/it]  [2023-07-10 20:08:10,148] [INFO] [timer.py:199:stop] epoch=0/micro_step=3/global_step=3, RunningAvgSamplesPerSec=32.19277229806066, CurrSamplesPerSec=32.19277229806066, MemAllocated=12.77GB, MaxMemAllocated=16.56GB
-[!] loss: 2.6309; token_acc: 60.27:   0%|          | 2/576 [00:18<1:04:29,  6.74s/it][!] loss: 2.6309; token_acc: 60.27:   1%|          | 3/576 [00:18<52:22,  5.48s/it]  [!] loss: 2.6055; token_acc: 57.35:   0%|          | 2/576 [00:18<1:04:29,  6.74s/it][!] loss: 2.6055; token_acc: 57.35:   1%|          | 3/576 [00:18<52:23,  5.49s/it]  [!] loss: 2.8223; token_acc: 63.01:   0%|          | 2/576 [00:18<1:04:29,  6.74s/it][!] loss: 2.8223; token_acc: 63.01:   1%|          | 3/576 [00:18<52:23,  5.49s/it]  [!] loss: 2.5098; token_acc: 62.69:   0%|          | 2/576 [00:18<1:04:29,  6.74s/it][!] loss: 2.5098; token_acc: 62.69:   1%|          | 3/576 [00:18<52:23,  5.49s/it]    0%|          | 0/2 [00:23<?, ?it/s]
-Traceback (most recent call last):
-  File "train_sft.py", line 99, in <module>
-    main(**args)
-  File "train_sft.py", line 85, in main
-    agent.train_model(
-  File "/home/bingxing2/gpuuser590/yx/KWS/code/model/agent.py", line 33, in train_model
-    loss, mle_acc = self.ds_engine(batch)
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
-    ret_val = func(*args, **kwargs)
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/deepspeed/runtime/engine.py", line 1724, in forward
-    loss = self.module(*inputs, **kwargs)
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/bingxing2/gpuuser590/yx/KWS/code/model/openllama.py", line 247, in forward
-    outputs = self.llama_model(
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/peft/peft_model.py", line 678, in forward
-    return self.base_model(
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/bingxing2/gpuuser590/yx/KWS/code/model/modeling_llama.py", line 676, in forward
-    outputs = self.model(
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/bingxing2/gpuuser590/yx/KWS/code/model/modeling_llama.py", line 565, in forward
-    layer_outputs = decoder_layer(
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/bingxing2/gpuuser590/yx/KWS/code/model/modeling_llama.py", line 275, in forward
-    hidden_states, self_attn_weights, present_key_value = self.self_attn(
-  File "/home/bingxing2/gpuuser590/.conda/envs/pandagpt/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/bingxing2/gpuuser590/yx/KWS/code/model/modeling_llama.py", line 187, in forward
-    query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin, position_ids)
-  File "/home/bingxing2/gpuuser590/yx/KWS/code/model/modeling_llama.py", line 122, in apply_rotary_pos_emb
-    k_embed = (k * cos) + (rotate_half(k) * sin)
-  File "/home/bingxing2/gpuuser590/yx/KWS/code/model/modeling_llama.py", line 113, in rotate_half
-    return torch.cat((-x2, x1), dim=-1)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 52.00 MiB (GPU 2; 39.41 GiB total capacity; 37.04 GiB already allocated; 36.50 MiB free; 37.57 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-[!] loss: 2.6797; token_acc: 61.19:   1%|          | 3/576 [00:24<1:16:45,  8.04s/it]
-[2023-07-10 20:08:18,649] [INFO] [launch.py:428:sigkill_handler] Killing subprocess 33227
-[2023-07-10 20:08:19,206] [INFO] [launch.py:428:sigkill_handler] Killing subprocess 33228
-[2023-07-10 20:08:20,015] [INFO] [launch.py:428:sigkill_handler] Killing subprocess 33229
-[2023-07-10 20:08:20,016] [INFO] [launch.py:428:sigkill_handler] Killing subprocess 33230
-[2023-07-10 20:08:21,530] [INFO] [launch.py:428:sigkill_handler] Killing subprocess 33231
-[2023-07-10 20:08:22,086] [INFO] [launch.py:428:sigkill_handler] Killing subprocess 33232
-[2023-07-10 20:08:22,678] [INFO] [launch.py:428:sigkill_handler] Killing subprocess 33233
-[2023-07-10 20:08:23,298] [INFO] [launch.py:428:sigkill_handler] Killing subprocess 33234
-[2023-07-10 20:08:24,572] [ERROR] [launch.py:434:sigkill_handler] ['/home/bingxing2/gpuuser590/.conda/envs/pandagpt/bin/python', '-u', 'train_sft.py', '--local_rank=7', '--model', 'openllama_peft', '--stage', '1', '--data_path', '/home/bingxing2/gpuuser590/yx/dataset/KeyWordSpotting/train.json', '--image_root_path', '/home/bingxing2/gpuuser590/yx/dataset/KeyWordSpotting', '--imagebind_ckpt_path', '../pretrained_ckpt/imagebind_ckpt/', '--whisper_ckpt_path', '../pretrained_ckpt/whisper_ckpt/tiny-en/', '--vicuna_ckpt_path', '../pretrained_ckpt/llama-7b/', '--max_tgt_len', '400', '--save_path', '../ckpt/pandagpt_7b_v0_peft/', '--log_path', '../ckpt/pandagpt_7b_v0_peft/log_rest/'] exits with return code = 1

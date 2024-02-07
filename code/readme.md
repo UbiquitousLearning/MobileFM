@@ -1,9 +1,6 @@
-# Run M4 and Benchmark
-Describe how to use "infer" and "Benchmark" 
+# Run the inference of M4 and eAIBench 
+M4: cd infer
+eAIBench: cd Benchmark
 
-## Explain the important directory
-- datasets
-- infer
-- Benchmark
-- model
-- train
+## Run mobile deployment
+cd mobile
