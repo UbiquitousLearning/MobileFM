@@ -43,14 +43,32 @@ conda create --name path3 python=3.8 -y
 conda activate path3
 pip install -r requirements.txt
 ```
-Task-21 optical character recognition use `Rendered SST2` dataset.
+Task-21 optical character recognition uses `Rendered SST2` dataset.
 ```
 python t21-rendered.py
 ```
 ## 3. Benchmark Usage
 The inference code for eAIBench, a comprehensive edge-oriented benchmark for AI tasks, is stored in the `code/Benchmark` directory. It is organized based on the underlying tasks or frameworks. Each folder contains detailed instructions,  dependencies, and code for the inference of each task. Pretrained weights for each task are stored in the `pretrained_ckpt` path.
+**Demo Example**
+
+We use the Task-1 Input Word Prediction as an example to demonstrate the inference process of eAIBench.
+```
+cd code/Benchmark
+```
+Install the Pytorch package with the correct cuda version, for example
+
+```bash
+pip install torch==1.13.1+cu117 -f https://download.pytorch.org/whl/torch/
+```
+Task-1 Input Word Prediction inference uses PTB dataset, and we already put it in [./WordPrediction/penn] directory.
+```shell
+cd MobileFM/code/Benchmark/WordPrediction
+python test.py
+```
+
 
 ## 4. Mobile Deployment
+
 
 ## 5. Future Work
 
