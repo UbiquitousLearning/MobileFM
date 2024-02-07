@@ -49,6 +49,7 @@ python t21-rendered.py
 ```
 ## 3. Benchmark Usage
 The inference code for eAIBench, a comprehensive edge-oriented benchmark for AI tasks, is stored in the `code/Benchmark` directory. It is organized based on the underlying tasks or frameworks. Each folder contains detailed instructions,  dependencies, and code for the inference of each task. Pretrained weights for each task are stored in the `pretrained_ckpt` path.
+
 **Demo Example**
 
 We use the Task-1 Input Word Prediction as an example to demonstrate the inference process of eAIBench.
@@ -72,7 +73,6 @@ To support the mobile deployment of M4, our team further developed mllm, a fast 
 - Optimized for multimodal LLMs like fuyu-8B
 - Supported: ARM NEON and x86 AVX2
 - 4-bit and 6-bit integer quantization
-For details, please
 ```
 cd code/mobile
 ```
