@@ -1,6 +1,7 @@
 # MobileFM
 
 ## 1. Introduction
+![MobileFM architecture](./fig-mobiefm.png)
 
 ## 2. Running MobileFM Demo
 
