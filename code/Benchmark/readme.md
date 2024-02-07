@@ -101,6 +101,7 @@ pip install torch==1.13.1+cu117 -f https://download.pytorch.org/whl/torch/
 ### Inference
 The dataset is PTB dataset, and we already put it in [./penn] directory.
 ```shell
+cd MobileFM/code/Benchmark/WordPrediction
 python test.py
 ```
 
