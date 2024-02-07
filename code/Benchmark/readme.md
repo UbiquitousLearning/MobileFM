@@ -1,5 +1,8 @@
-# Benchmark
-A comprehensive edge-oriented benchmark for AI tasks.
+# eAIBench: a comprehensive edge-oriented benchmark for AI tasks.
+We embark on constructing an exhaustive edge-oriented benchmark for AI tasks, encompassing 38 tasks spanning 50 public datasets.
+Those tasks are essential to real-world mobile applications (e.g., translation, object detection, and voice assistant). Many
+of these tasks have also received substantial attention within the mobile community itself. Each task is accompanied by its designated accu-
+racy metric. eAIBench includes 5 modality domains: NLP, CV, Audio, Sensing (IMU), and Misc (Multimodal). While the majority of tasks are tailored to smartphones, we extend our scope to encompass pivotal devices such as laptops (code generation), autonomous cars (traffic sign classification), and IoT cameras (Counting).
 
 ## Task-16 Image retrieval
 Task-16 Image retrieval inference on Jetson ORIN.
