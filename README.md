@@ -73,6 +73,7 @@ To support the mobile deployment of M4, our team further developed mllm, a fast 
 - Optimized for multimodal LLMs like fuyu-8B
 - Supported: ARM NEON and x86 AVX2
 - 4-bit and 6-bit integer quantization
+  
 For details, please
 ```
 cd code/mobile
