@@ -1,7 +1,7 @@
 # Mobile Foundation Model as Firmware
 
 ## 1. Introduction
-![MobileFM architecture](./fig-mobiefm.png)
+![MobileFM architecture](./fig-mobiefm.jpg)
 The architecture of our proposed M4, a one-size-fits-all foundation model
 for diversified mobile/edge-oriented AI tasks. It is designed with the following principles: 
 - unified: instead of building independent foundation models for different possible modalities, M4 provides a unified architecture that maximizes the capability
