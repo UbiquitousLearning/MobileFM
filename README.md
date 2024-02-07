@@ -1,6 +1,7 @@
-# MobileFM
+# Mobile Foundation Model as Firmware
 
 ## 1. Introduction
+
 
 ## 2. Running MobileFM Demo
 
