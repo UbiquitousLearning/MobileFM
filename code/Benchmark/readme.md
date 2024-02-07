@@ -2,6 +2,9 @@
 We embark on constructing an exhaustive edge-oriented benchmark for AI tasks, encompassing 38 tasks spanning 50 public datasets.
 Those tasks are essential to real-world mobile applications (e.g., translation, object detection, and voice assistant). Each task is accompanied by its designated accuracy metric. eAIBench includes 5 modality domains: NLP, CV, Audio, Sensing (IMU), and Misc (Multimodal). While the majority of tasks are tailored to smartphones, we extend our scope to encompass pivotal devices such as laptops (code generation), autonomous cars (traffic sign classification), and IoT cameras (Counting).
 
+# Task deployment
+Given the dispersed nature of the current 50 tasks, we will initially prioritize displaying the code and dataset of select tasks in the first stage. Subsequently, we will devise a more convenient approach to release all tasks comprehensively.
+
 ## Task-16 Image retrieval
 Task-16 Image retrieval inference on Jetson ORIN.
 The implementation is based on [ArcFace](https://github.com/open-mmlab/mmpretrain/tree/17a886cb5825cd8c26df4e65f7112d404b99fe12/configs/arcface) which implemented by [mmpretrain](https://github.com/open-mmlab/mmpretrain/tree/17a886cb5825cd8c26df4e65f7112d404b99fe12).
