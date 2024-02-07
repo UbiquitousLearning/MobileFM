@@ -66,9 +66,16 @@ cd MobileFM/code/Benchmark/WordPrediction
 python test.py
 ```
 
-
 ## 4. Mobile Deployment
-
+To support the mobile deployment of M4, our team further developed mllm, a fast and lightweight multimodal LLM inference engine for mobile and edge devices.
+- Plain C/C++ implementation without dependencies
+- Optimized for multimodal LLMs like fuyu-8B
+- Supported: ARM NEON and x86 AVX2
+- 4-bit and 6-bit integer quantization
+For details, please
+```
+cd code/mobile
+```
 
 ## 5. Future Work
 
