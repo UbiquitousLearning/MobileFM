@@ -107,3 +107,20 @@ python test.py
 
 ### References
 [Language-Model-Next-Word-Prediction](https://github.com/friedrichor/Language-Model-Next-Word-Prediction)
+
+## Task-10 Grammatical error correction
+
+### Install
+
+```bash
+cd MobileFM/code/Benchmark/gec-benchmark
+pip install -r requirements.txt
+```
+
+### Inference
+
+```shell
+python gec-jfleg.py
+```
+
+### 

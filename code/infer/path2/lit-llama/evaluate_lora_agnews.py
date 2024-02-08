@@ -152,7 +152,7 @@ def main(
         raise NotImplementedError("Quantization in LoRA is not supported yet")
 
 
-    fabric = L.Fabric(accelerator=accelerator, devices=[7])
+    fabric = L.Fabric(accelerator=accelerator, devices=[0])
     fabric.seed_everything(42)
 
     dt = getattr(torch, dtype, None)

@@ -1,0 +1,2178 @@
+[
+ {
+  "sentence": "I think to learn facts is only an evidence if the students can work hard and if they are able to keep every detailled information as tought , but it 's definitly not an evidence for their intelligence .",
+  "correction": "I think to learn facts is only evidence if the students can work hard and if they are able to keep every detailed information taught , but it 's definitely not evidence of their intelligence ."
+ },
+ {
+  "sentence": "I think to learn facts is only an evidence if the students can work hard and if they are able to keep every detailled information as tought , but it 's definitly not an evidence for their intelligence .",
+  "correction": "I think to learn facts is only effective if the students can work hard and they are able to keep every detailed information as taught , but it 's definitely not a measure of their intelligence ."
+ },
+ {
+  "sentence": "I think to learn facts is only an evidence if the students can work hard and if they are able to keep every detailled information as tought , but it 's definitly not an evidence for their intelligence .",
+  "correction": "I think that to learn facts is only proof that the students can work hard and that they are able to retain detailed information they are taught , but it 's definitely not proof of their intelligence ."
+ },
+ {
+  "sentence": "I think to learn facts is only an evidence if the students can work hard and if they are able to keep every detailled information as tought , but it 's definitly not an evidence for their intelligence .",
+  "correction": "I think learning facts is only evidence of whether students can work hard and if they are able to retain every detail of information they are taught , but it 's definitely not evidence of their intelligence ."
+ },
+ {
+  "sentence": "When these people create their new ideas others often look very strange on them .",
+  "correction": "When these people create their new ideas , others often look very strange to them ."
+ },
+ {
+  "sentence": "When these people create their new ideas others often look very strange on them .",
+  "correction": "When these people create their new ideas others often look very strangely on them ."
+ },
+ {
+  "sentence": "When these people create their new ideas others often look very strange on them .",
+  "correction": "When these people create new ideas others often look very strange at them ."
+ },
+ {
+  "sentence": "When these people create their new ideas others often look very strange on them .",
+  "correction": "When these people create new ideas , others often look very strangely at them ."
+ },
+ {
+  "sentence": "When you`re making a tour guide trip , you already have a everything settled from the time you`re departing to the time you arrive .",
+  "correction": "When you 're making a tour guide trip , you already have everything settled from the time you 're departing , to the time you arrive ."
+ },
+ {
+  "sentence": "When you`re making a tour guide trip , you already have a everything settled from the time you`re departing to the time you arrive .",
+  "correction": "When you 're taking a trip with a tour guide , everything is already settled from the time you arrive until the time you depart ."
+ },
+ {
+  "sentence": "When you`re making a tour guide trip , you already have a everything settled from the time you`re departing to the time you arrive .",
+  "correction": "When you 're taking a tour guide trip , you have everything settled from the time you leave to the time you arrive ."
+ },
+ {
+  "sentence": "When you`re making a tour guide trip , you already have a everything settled from the time you`re departing to the time you arrive .",
+  "correction": "When you 're taking a trip with a tour guide , you already have everything settled , from the time you depart to the time you arrive ."
+ },
+ {
+  "sentence": "I know lots of old people who go to parties , stay always in contact with others people .",
+  "correction": "I know lots of old people who go to parties and stay in contact with other people ."
+ },
+ {
+  "sentence": "I know lots of old people who go to parties , stay always in contact with others people .",
+  "correction": "I know lots of old people who go to parties and who always stay in contact with other people ."
+ },
+ {
+  "sentence": "I know lots of old people who go to parties , stay always in contact with others people .",
+  "correction": "I know lots of older people who go to parties and always stay in contact with others ."
+ },
+ {
+  "sentence": "I know lots of old people who go to parties , stay always in contact with others people .",
+  "correction": "I know lots of old people who go to parties and always stay in contact with others ."
+ },
+ {
+  "sentence": "The development of biomechanics has made this possible .",
+  "correction": "The development of biomechanics has made this possible ."
+ },
+ {
+  "sentence": "The development of biomechanics has made this possible .",
+  "correction": "The development of biomechanics has made this possible ."
+ },
+ {
+  "sentence": "The development of biomechanics has made this possible .",
+  "correction": "The development of biomechanics has made this possible ."
+ },
+ {
+  "sentence": "The development of biomechanics has made this possible .",
+  "correction": "The development of biomechanics has made this possible ."
+ },
+ {
+  "sentence": "For example , when I am studying for tests or doing my homework , my grandparents can go out and do what they enjoy .",
+  "correction": "For example , when I am studying for tests or doing my homework , my grandparents can go out and do what they enjoy ."
+ },
+ {
+  "sentence": "For example , when I am studying for tests or doing my homework , my grandparents can go out and do what they enjoy .",
+  "correction": "For example , when I am studying for tests or doing my homework , my grandparents can go out and do what they enjoy ."
+ },
+ {
+  "sentence": "For example , when I am studying for tests or doing my homework , my grandparents can go out and do what they enjoy .",
+  "correction": "For example , when I am studying for tests or doing my homework , my grandparents can go out and do what they enjoy ."
+ },
+ {
+  "sentence": "For example , when I am studying for tests or doing my homework , my grandparents can go out and do what they enjoy .",
+  "correction": "For example , when I am studying for tests or doing my homework , my grandparents can go out and do what they enjoy ."
+ },
+ {
+  "sentence": "Every one would expect to leave his owns and secrets dreams like to be a painter , a writter ...",
+  "correction": "Every one would expect to live on his own and secret dreams like to be a painter or a writer ."
+ },
+ {
+  "sentence": "Every one would expect to leave his owns and secrets dreams like to be a painter , a writter ...",
+  "correction": "Everyone would expect to leave his own secrets dreams like to be a painter , a writer ."
+ },
+ {
+  "sentence": "Every one would expect to leave his owns and secrets dreams like to be a painter , a writter ...",
+  "correction": "Everyone would expect to leave his own secrets dreams such as to be a painter or a writer ."
+ },
+ {
+  "sentence": "Every one would expect to leave his owns and secrets dreams like to be a painter , a writter ...",
+  "correction": "Everyone would be expected to leave behind his own and secret dreams , like becoming a painter or a writer ..."
+ },
+ {
+  "sentence": "An example that would make this categorization problemmatic is an architect .",
+  "correction": "An example that would make this categorization problematic is an architect ."
+ },
+ {
+  "sentence": "An example that would make this categorization problemmatic is an architect .",
+  "correction": "An example that would make this categorization problematic is an architect ."
+ },
+ {
+  "sentence": "An example that would make this categorization problemmatic is an architect .",
+  "correction": "An example that would make this categorization problematic is an architect ."
+ },
+ {
+  "sentence": "An example that would make this categorization problemmatic is an architect .",
+  "correction": "An example that would make this categorization problematic is an architect ."
+ },
+ {
+  "sentence": "and through text book , students are more engaged .",
+  "correction": "And through the text book , students are more engaged ."
+ },
+ {
+  "sentence": "and through text book , students are more engaged .",
+  "correction": "And through text books , students are more engaged ."
+ },
+ {
+  "sentence": "and through text book , students are more engaged .",
+  "correction": "And through text books , students are more engaged ."
+ },
+ {
+  "sentence": "and through text book , students are more engaged .",
+  "correction": "Through text books , students are more engaged ."
+ },
+ {
+  "sentence": "In my essy i want to focus on : how impotant is for students to learn facts .",
+  "correction": "In my essay , I want to focus on how important it is for students to learn facts ."
+ },
+ {
+  "sentence": "In my essy i want to focus on : how impotant is for students to learn facts .",
+  "correction": "In my essay I want to focus on how important it is for students to learn facts ."
+ },
+ {
+  "sentence": "In my essy i want to focus on : how impotant is for students to learn facts .",
+  "correction": "In my essay I want to focus on how important it is for students to learn facts ."
+ },
+ {
+  "sentence": "In my essy i want to focus on : how impotant is for students to learn facts .",
+  "correction": "In my essay I want to focus on how important it is for students to learn facts ."
+ },
+ {
+  "sentence": "Actually it might not be true .",
+  "correction": "Actually , it might not be true ."
+ },
+ {
+  "sentence": "Actually it might not be true .",
+  "correction": "Actually it might not be true ."
+ },
+ {
+  "sentence": "Actually it might not be true .",
+  "correction": "Actually , it might not be true ."
+ },
+ {
+  "sentence": "Actually it might not be true .",
+  "correction": "Actually it might not be true ."
+ },
+ {
+  "sentence": "For example , Many scientists and engineers are study about cars that make no more tough sound , and smoke .",
+  "correction": "For example , many scientists and engineers study about cars that make no loud noise or smoke ."
+ },
+ {
+  "sentence": "For example , Many scientists and engineers are study about cars that make no more tough sound , and smoke .",
+  "correction": "For example , many scientists and engineers study cars that make no tough sounds or smoke ."
+ },
+ {
+  "sentence": "For example , Many scientists and engineers are study about cars that make no more tough sound , and smoke .",
+  "correction": "For example , many scientists and engineers study cars that make no more tough sounds or smoke ."
+ },
+ {
+  "sentence": "For example , Many scientists and engineers are study about cars that make no more tough sound , and smoke .",
+  "correction": "For example , many scientists and engineers are researching cars that make no more loud sounds or smoke ."
+ },
+ {
+  "sentence": "The cutting the dead trees is called salvage logging .",
+  "correction": "The cutting of dead trees is called salvage logging ."
+ },
+ {
+  "sentence": "The cutting the dead trees is called salvage logging .",
+  "correction": "The cutting of dead trees is called salvage logging ."
+ },
+ {
+  "sentence": "The cutting the dead trees is called salvage logging .",
+  "correction": "The cutting of dead trees is called salvage logging ."
+ },
+ {
+  "sentence": "The cutting the dead trees is called salvage logging .",
+  "correction": "Cutting the dead trees is called salvage logging ."
+ },
+ {
+  "sentence": "internet offer a good opportunity for people that travel for work , for a student , for work .",
+  "correction": "Internet offers a good opportunity for people that travel for work , for a student , and for work ."
+ },
+ {
+  "sentence": "internet offer a good opportunity for people that travel for work , for a student , for work .",
+  "correction": "The internet offers a good opportunity for people that travel for work , for students , and for work ."
+ },
+ {
+  "sentence": "internet offer a good opportunity for people that travel for work , for a student , for work .",
+  "correction": "Internet offers a good opportunity for people that travel for work and for students to work ."
+ },
+ {
+  "sentence": "internet offer a good opportunity for people that travel for work , for a student , for work .",
+  "correction": "The internet offers a good opportunity for people that travel for work , or for students to work ."
+ },
+ {
+  "sentence": "We can use it .",
+  "correction": "We can use it ."
+ },
+ {
+  "sentence": "We can use it .",
+  "correction": "We can use it ."
+ },
+ {
+  "sentence": "We can use it .",
+  "correction": "We can use it ."
+ },
+ {
+  "sentence": "We can use it .",
+  "correction": "We can use it ."
+ },
+ {
+  "sentence": "Young people nowdays do n't give enough time to helping their communities .",
+  "correction": "Young people nowadays do n't give enough time to help their communities ."
+ },
+ {
+  "sentence": "Young people nowdays do n't give enough time to helping their communities .",
+  "correction": "Young people these days do n't give enough time to helping their communities ."
+ },
+ {
+  "sentence": "Young people nowdays do n't give enough time to helping their communities .",
+  "correction": "Young people nowadays do n't devote enough time to helping their communities ."
+ },
+ {
+  "sentence": "Young people nowdays do n't give enough time to helping their communities .",
+  "correction": "Young people nowadays do n't spend enough time helping their communities ."
+ },
+ {
+  "sentence": "this speace must change gerden .",
+  "correction": "This space must change into a garden ."
+ },
+ {
+  "sentence": "this speace must change gerden .",
+  "correction": "This space must change into a garden ."
+ },
+ {
+  "sentence": "this speace must change gerden .",
+  "correction": "This space must change the garden ."
+ },
+ {
+  "sentence": "this speace must change gerden .",
+  "correction": "This space must change into a garden ."
+ },
+ {
+  "sentence": "Ideas and motives for the war are more important to know because from them one might draw some conclusions and it might change something inside the student .",
+  "correction": "Ideas and motives for the war are more important to know because from them one might draw some conclusions and it might change something inside the student ."
+ },
+ {
+  "sentence": "Ideas and motives for the war are more important to know because from them one might draw some conclusions and it might change something inside the student .",
+  "correction": "Ideas and motives for the war are more important to know because from them one might draw some conclusions and it might change something inside the student ."
+ },
+ {
+  "sentence": "Ideas and motives for the war are more important to know because from them one might draw some conclusions and it might change something inside the student .",
+  "correction": "Ideas and motives for the war are more important to know because from them one might draw some conclusions and it might change something inside the student ."
+ },
+ {
+  "sentence": "Ideas and motives for the war are more important to know because from them one might draw some conclusions and it might change something inside the student .",
+  "correction": "Motives for war are more important to know because , from them , one might draw some conclusions and it might change something inside the student ."
+ },
+ {
+  "sentence": "they might be bored of reading a complex passage .",
+  "correction": "They might be bored by reading a complex passage ."
+ },
+ {
+  "sentence": "they might be bored of reading a complex passage .",
+  "correction": "They might be bored of reading a complex passage ."
+ },
+ {
+  "sentence": "they might be bored of reading a complex passage .",
+  "correction": "They might be bored of reading a complex passage ."
+ },
+ {
+  "sentence": "they might be bored of reading a complex passage .",
+  "correction": "They might be bored of reading a complex passage ."
+ },
+ {
+  "sentence": "In fact this device was different from its competitor products .",
+  "correction": "In fact , this device was different from its competitor products ."
+ },
+ {
+  "sentence": "In fact this device was different from its competitor products .",
+  "correction": "In fact this device was different from its competitor 's products ."
+ },
+ {
+  "sentence": "In fact this device was different from its competitor products .",
+  "correction": "In fact , this device was different from its competitor 's products ."
+ },
+ {
+  "sentence": "In fact this device was different from its competitor products .",
+  "correction": "In fact , this device was different from the competitor 's products ."
+ },
+ {
+  "sentence": "So both the lecture an the reading think that other arcaeologist monuments in the area from Kingdom period .",
+  "correction": "So both the lecture and the reading think that other archaeological monuments in the area are from the Kingdom period ."
+ },
+ {
+  "sentence": "So both the lecture an the reading think that other arcaeologist monuments in the area from Kingdom period .",
+  "correction": "So both the lecturer and the readings state that other archaeological monuments in the area are from the Kingdom period ."
+ },
+ {
+  "sentence": "So both the lecture an the reading think that other arcaeologist monuments in the area from Kingdom period .",
+  "correction": "So both the lecture and the text state that other archaeological monuments in the area are from the Kingdom period ."
+ },
+ {
+  "sentence": "So both the lecture an the reading think that other arcaeologist monuments in the area from Kingdom period .",
+  "correction": "Both the lecture and the reading argue that other archaeological monuments in the area are from the Kingdom period ."
+ },
+ {
+  "sentence": "this example proves that knowing the fact is less important compare to knowing the concepts related to it .",
+  "correction": "This example proves that knowing the fact is less important compared to knowing the concepts related to it ."
+ },
+ {
+  "sentence": "this example proves that knowing the fact is less important compare to knowing the concepts related to it .",
+  "correction": "This example proves that knowing the fact is less important compared to knowing the concepts related to it ."
+ },
+ {
+  "sentence": "this example proves that knowing the fact is less important compare to knowing the concepts related to it .",
+  "correction": "This example proves that knowing the facts is less important than knowing the concepts related to it ."
+ },
+ {
+  "sentence": "this example proves that knowing the fact is less important compare to knowing the concepts related to it .",
+  "correction": "This example proves that knowing the facts is less important compared to knowing the concepts related to it ."
+ },
+ {
+  "sentence": "Thus i see more people opting for their own car in the near future .",
+  "correction": "Thus , I see more people opting for their own car in the near future ."
+ },
+ {
+  "sentence": "Thus i see more people opting for their own car in the near future .",
+  "correction": "Thus I see more people opting for their own car in the near future ."
+ },
+ {
+  "sentence": "Thus i see more people opting for their own car in the near future .",
+  "correction": "Thus I see more people opting for their own car in the near future ."
+ },
+ {
+  "sentence": "Thus i see more people opting for their own car in the near future .",
+  "correction": "Thus I see more people opting for their own cars in the near future ."
+ },
+ {
+  "sentence": "then there chance to shift him other parts of cricket .",
+  "correction": "Then there chance to shift him other parts of cricket ."
+ },
+ {
+  "sentence": "then there chance to shift him other parts of cricket .",
+  "correction": "Then there is a chance to teach him other parts of cricket ."
+ },
+ {
+  "sentence": "then there chance to shift him other parts of cricket .",
+  "correction": "Then there is a chance to shift him to other parts of cricket ."
+ },
+ {
+  "sentence": "then there chance to shift him other parts of cricket .",
+  "correction": "Then there is chance to shift him to other parts of cricket ."
+ },
+ {
+  "sentence": "Although understanding the concepts is important , sometimes facts are the only solution for them to learn .",
+  "correction": "Although understanding the concepts is important , sometimes facts are the only solution for them to learn ."
+ },
+ {
+  "sentence": "Although understanding the concepts is important , sometimes facts are the only solution for them to learn .",
+  "correction": "Although understanding the concepts are important , sometimes facts are the only solutions for them to learn ."
+ },
+ {
+  "sentence": "Although understanding the concepts is important , sometimes facts are the only solution for them to learn .",
+  "correction": "Although understanding the concepts is important , sometimes facts are the only requirement for them to learn ."
+ },
+ {
+  "sentence": "Although understanding the concepts is important , sometimes facts are the only solution for them to learn .",
+  "correction": "Although understanding the concepts is important , sometimes facts are the only solution for them to learn ."
+ },
+ {
+  "sentence": "Probably , by using my own car this would have been much more difficult and stressful , if not impossible .",
+  "correction": "Probably , by using my own car , this would have been much more difficult and stressful , if not impossible ."
+ },
+ {
+  "sentence": "Probably , by using my own car this would have been much more difficult and stressful , if not impossible .",
+  "correction": "Probably , by using my own car this would have been much more difficult and stressful , if not impossible ."
+ },
+ {
+  "sentence": "Probably , by using my own car this would have been much more difficult and stressful , if not impossible .",
+  "correction": "By using my own car , this probably would have been much more difficult and stressful , if not impossible ."
+ },
+ {
+  "sentence": "Probably , by using my own car this would have been much more difficult and stressful , if not impossible .",
+  "correction": "Probably , by using my own car , this would have been much more difficult and stressful , if not impossible ."
+ },
+ {
+  "sentence": "This is clearly seen in the way many young people organize the collection of funds or books to help others receive a proper education , and , also in the way many students go to schools for the blind to read out books to them and help them out .",
+  "correction": "This is clearly seen in the way many young people organize the collection of funds or books to help others receive a proper education , and , also , in the way many students go to schools for the blind to read books aloud to them and help them out ."
+ },
+ {
+  "sentence": "This is clearly seen in the way many young people organize the collection of funds or books to help others receive a proper education , and , also in the way many students go to schools for the blind to read out books to them and help them out .",
+  "correction": "This is clearly seen in the way many young people organize the collection of funds or books to help others receive a proper education , and also in the way many students go to schools for the blind to read books to them and help them out ."
+ },
+ {
+  "sentence": "This is clearly seen in the way many young people organize the collection of funds or books to help others receive a proper education , and , also in the way many students go to schools for the blind to read out books to them and help them out .",
+  "correction": "This is clearly seen in the way many young people organize the collection of funds or books to help others receive a proper education , and also in the way many students go to schools for the blind to read books to them and help them out ."
+ },
+ {
+  "sentence": "This is clearly seen in the way many young people organize the collection of funds or books to help others receive a proper education , and , also in the way many students go to schools for the blind to read out books to them and help them out .",
+  "correction": "This is clearly seen in the way many young people organize the collection of funds or books to help others receive a proper education , and also in the way many students go to schools for the blind to read books out loud to them and help them out ."
+ },
+ {
+  "sentence": "This implies that there can be instances were no such overstating take place at all .",
+  "correction": "This implies that there can be instances were no such overstating takes place at all ."
+ },
+ {
+  "sentence": "This implies that there can be instances were no such overstating take place at all .",
+  "correction": "This implies that there can be instances where no such overstating takes place at all ."
+ },
+ {
+  "sentence": "This implies that there can be instances were no such overstating take place at all .",
+  "correction": "This implies that there can be instances where no such overstating takes place at all ."
+ },
+ {
+  "sentence": "This implies that there can be instances were no such overstating take place at all .",
+  "correction": "This implies that there can be instances where no such overstating takes place at all ."
+ },
+ {
+  "sentence": "Also the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the time of the old kingdom 's king , Khafre .",
+  "correction": "Also , the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the reign of the old kingdom 's king , Khafre ."
+ },
+ {
+  "sentence": "Also the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the time of the old kingdom 's king , Khafre .",
+  "correction": "Also , the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the time of the old kingdom 's king , Khafre ."
+ },
+ {
+  "sentence": "Also the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the time of the old kingdom 's king , Khafre .",
+  "correction": "Also the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the time of the old kingdom 's king , Khafre ."
+ },
+ {
+  "sentence": "Also the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the time of the old kingdom 's king , Khafre .",
+  "correction": "Also , the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the time of the old kingdom 's king , Khafre ."
+ },
+ {
+  "sentence": "Finally , zebra mussels are likely to cause a decline in the overall fish population in habitats where they become dominant .",
+  "correction": "Finally , zebra mussels are likely to cause a decline in the overall fish population in habitats where they become dominant ."
+ },
+ {
+  "sentence": "Finally , zebra mussels are likely to cause a decline in the overall fish population in habitats where they become dominant .",
+  "correction": "Finally , zebra mussels are likely to cause a decline in the overall fish population in habitats where they become dominant ."
+ },
+ {
+  "sentence": "Finally , zebra mussels are likely to cause a decline in the overall fish population in habitats where they become dominant .",
+  "correction": "Finally , zebra mussels are likely to cause a decline in the overall fish population in habitats where they become dominant ."
+ },
+ {
+  "sentence": "Finally , zebra mussels are likely to cause a decline in the overall fish population in habitats where they become dominant .",
+  "correction": "Finally , zebra mussels are likely to cause a decline in the overall fish population in habitats where they become dominant ."
+ },
+ {
+  "sentence": "But generally , moments of happiness in life can not really be compared because they are different .",
+  "correction": "But generally , moments of happiness in life can not really be compared because they are different ."
+ },
+ {
+  "sentence": "But generally , moments of happiness in life can not really be compared because they are different .",
+  "correction": "But generally , moments of happiness in life can not really be compared because they are different ."
+ },
+ {
+  "sentence": "But generally , moments of happiness in life can not really be compared because they are different .",
+  "correction": "But generally , moments of happiness in life can not really be compared because they are different ."
+ },
+ {
+  "sentence": "But generally , moments of happiness in life can not really be compared because they are different .",
+  "correction": "Generally , moments of happiness in life can not really be compared because they are different ."
+ },
+ {
+  "sentence": "However , she was wrong .",
+  "correction": "However , she was wrong ."
+ },
+ {
+  "sentence": "However , she was wrong .",
+  "correction": "However , she was wrong ."
+ },
+ {
+  "sentence": "However , she was wrong .",
+  "correction": "However , she was wrong ."
+ },
+ {
+  "sentence": "However , she was wrong .",
+  "correction": "However , she was wrong ."
+ },
+ {
+  "sentence": "Adult content to sent their chirdren to school to contact these different kinds of class .",
+  "correction": "Adults are content to send their children to school to experience these different kinds of classes ."
+ },
+ {
+  "sentence": "Adult content to sent their chirdren to school to contact these different kinds of class .",
+  "correction": "Adults are content to send their children to school to be in contact with these different kinds of classes ."
+ },
+ {
+  "sentence": "Adult content to sent their chirdren to school to contact these different kinds of class .",
+  "correction": "Adult content to sent their children to school to contact these different kinds of class ."
+ },
+ {
+  "sentence": "Adult content to sent their chirdren to school to contact these different kinds of class .",
+  "correction": "Adults are content to send their children to school to have contact with these different kinds of classes ."
+ },
+ {
+  "sentence": "I do not know American teathers so but some Japanese theacher speak just facts in the class hours .",
+  "correction": "I do not know any American teachers , but some Japanese teachers just speak about facts during class hours ."
+ },
+ {
+  "sentence": "I do not know American teathers so but some Japanese theacher speak just facts in the class hours .",
+  "correction": "I do not know about American teachers , but some Japanese teachers speak only about facts during class ."
+ },
+ {
+  "sentence": "I do not know American teathers so but some Japanese theacher speak just facts in the class hours .",
+  "correction": "I do not know if American teachers do , but some Japanese teachers speak factually during class ."
+ },
+ {
+  "sentence": "I do not know American teathers so but some Japanese theacher speak just facts in the class hours .",
+  "correction": "I do not know about American teachers , but some Japanese teachers speak just the facts during the class ."
+ },
+ {
+  "sentence": "He knows how to draw a line of diffrence between gambling and taking risk .",
+  "correction": "He knows how to draw a line between gambling and taking risks ."
+ },
+ {
+  "sentence": "He knows how to draw a line of diffrence between gambling and taking risk .",
+  "correction": "He knows how to draw a line between the difference of gambling and risk-taking ."
+ },
+ {
+  "sentence": "He knows how to draw a line of diffrence between gambling and taking risk .",
+  "correction": "He knows how to draw the line between gambling and taking a risk ."
+ },
+ {
+  "sentence": "He knows how to draw a line of diffrence between gambling and taking risk .",
+  "correction": "He knows how to draw a line differentiating gambling and taking risks ."
+ },
+ {
+  "sentence": "Hence , I did not have to wake up too early this morning , I took the underground , and the train , then the underground in Rome .",
+  "correction": "Hence , I did not have to wake up too early this morning ; I took the underground and the train , then the underground in Rome ."
+ },
+ {
+  "sentence": "Hence , I did not have to wake up too early this morning , I took the underground , and the train , then the underground in Rome .",
+  "correction": "Hence I did not have to wake up too early this morning . I took the underground , the train , and then the underground again in Rome ."
+ },
+ {
+  "sentence": "Hence , I did not have to wake up too early this morning , I took the underground , and the train , then the underground in Rome .",
+  "correction": "Hence , I did not have to wake up too early this morning ; I took the underground , then the train , then the underground in Rome ."
+ },
+ {
+  "sentence": "Hence , I did not have to wake up too early this morning , I took the underground , and the train , then the underground in Rome .",
+  "correction": "Hence I did not have to wake up too early this morning , so I took the underground , the train , and then the underground in Rome ."
+ },
+ {
+  "sentence": "I need to understand what are carbohydrates , proteins , vitamins and minerals and how they are unfolded in our body to produce ATP .",
+  "correction": "I need to understand what carbohydrates , proteins , vitamins , and minerals are and how they are unfolded in our body to produce ATP ."
+ },
+ {
+  "sentence": "I need to understand what are carbohydrates , proteins , vitamins and minerals and how they are unfolded in our body to produce ATP .",
+  "correction": "I need to understand what carbohydrates , proteins , vitamins and minerals are and how they work in our body to produce ATP ."
+ },
+ {
+  "sentence": "I need to understand what are carbohydrates , proteins , vitamins and minerals and how they are unfolded in our body to produce ATP .",
+  "correction": "I need to understand what carbohydrates , proteins , vitamins and minerals are and how they are utilized in our body to produce ATP ."
+ },
+ {
+  "sentence": "I need to understand what are carbohydrates , proteins , vitamins and minerals and how they are unfolded in our body to produce ATP .",
+  "correction": "I need to understand what carbohydrates , proteins , vitamins and minerals are and how they are metabolized in our body to produce ATP ."
+ },
+ {
+  "sentence": "lot 's of people using bycicle to go where .",
+  "correction": "Lots of people use bicycles to go somewhere ."
+ },
+ {
+  "sentence": "lot 's of people using bycicle to go where .",
+  "correction": "Lots of people use bicycles to go everywhere ."
+ },
+ {
+  "sentence": "lot 's of people using bycicle to go where .",
+  "correction": "Lot 's of people are using bicycles to go everywhere ."
+ },
+ {
+  "sentence": "lot 's of people using bycicle to go where .",
+  "correction": "Lots of people use bicycles to go everywhere ."
+ },
+ {
+  "sentence": "But if I was trying to do all the sight-seeing without a tour guide , that would be very difficult and dangerous .",
+  "correction": "But if I was trying to do all the sight-seeing without a tour guide , that would be very difficult and dangerous ."
+ },
+ {
+  "sentence": "But if I was trying to do all the sight-seeing without a tour guide , that would be very difficult and dangerous .",
+  "correction": "But if I was trying to do all the sightseeing without a tour guide , that would be very difficult and dangerous ."
+ },
+ {
+  "sentence": "But if I was trying to do all the sight-seeing without a tour guide , that would be very difficult and dangerous .",
+  "correction": "But if I was trying to do all the sight-seeing without a tour guide , that would be very difficult and dangerous ."
+ },
+ {
+  "sentence": "But if I was trying to do all the sight-seeing without a tour guide , that would be very difficult and dangerous .",
+  "correction": "But if I was trying to do all the sight-seeing without a tour guide , that would be very difficult and dangerous ."
+ },
+ {
+  "sentence": "Trust me , the God will wish the young people .",
+  "correction": "Trust me , God will provide for young people ."
+ },
+ {
+  "sentence": "Trust me , the God will wish the young people .",
+  "correction": "Trust me , God will wish the young people ."
+ },
+ {
+  "sentence": "Trust me , the God will wish the young people .",
+  "correction": "Trust me , the God will wish for the young people ."
+ },
+ {
+  "sentence": "Trust me , the God will wish the young people .",
+  "correction": "Trust me , the god 's will is for the young people ."
+ },
+ {
+  "sentence": "So it means there is no certain way about how migratintg birds find their way to the home .",
+  "correction": "So it means that there is no certain way that migrating birds find their way home ."
+ },
+ {
+  "sentence": "So it means there is no certain way about how migratintg birds find their way to the home .",
+  "correction": "So , it means that there is no certain way about how migrating birds find their way home ."
+ },
+ {
+  "sentence": "So it means there is no certain way about how migratintg birds find their way to the home .",
+  "correction": "So it means there is no certain way how migrating birds find their way home ."
+ },
+ {
+  "sentence": "So it means there is no certain way about how migratintg birds find their way to the home .",
+  "correction": "So it means there is no specific way in which migrating birds find their way home ."
+ },
+ {
+  "sentence": "First is how to release the drugs as fast as possible , in order to sell it faster and to make more money faster , but goverment requeres a certein amount of the testing to be done before the drug is reliased , so it reduses the date of drug release .",
+  "correction": "First is how to release the drugs as quickly as possible in order to sell them faster and make money faster , but government requires a certain amount of testing to be done before the drug is released , so that pushes back the date of the drug release ."
+ },
+ {
+  "sentence": "First is how to release the drugs as fast as possible , in order to sell it faster and to make more money faster , but goverment requeres a certein amount of the testing to be done before the drug is reliased , so it reduses the date of drug release .",
+  "correction": "First is how to release the drugs as fast as possible in order to sell it faster and to make more money faster , but government requires a certain amount of the testing to be done before the drug is released , so it reduces the date of the drug release ."
+ },
+ {
+  "sentence": "First is how to release the drugs as fast as possible , in order to sell it faster and to make more money faster , but goverment requeres a certein amount of the testing to be done before the drug is reliased , so it reduses the date of drug release .",
+  "correction": "First is how to release the drugs as fast as possible ; in order to sell drugs and make money , the government requires a certain amount of testing to be done before the drugs are released , and this delays the date of release ."
+ },
+ {
+  "sentence": "First is how to release the drugs as fast as possible , in order to sell it faster and to make more money faster , but goverment requeres a certein amount of the testing to be done before the drug is reliased , so it reduses the date of drug release .",
+  "correction": "The first concern is how to release the drugs as fast as possible in order to sell them and make more money faster , but the government requires a certain amount of testing to be done before a drug is released , which delays the release date ."
+ },
+ {
+  "sentence": "The more I study , the more I satisfy .",
+  "correction": "The more I study , the more I 'm satisfied ."
+ },
+ {
+  "sentence": "The more I study , the more I satisfy .",
+  "correction": "The more I study , the more satisfied I am ."
+ },
+ {
+  "sentence": "The more I study , the more I satisfy .",
+  "correction": "The more I study , the more I 'm satisfied ."
+ },
+ {
+  "sentence": "The more I study , the more I satisfy .",
+  "correction": "The more I study , the more I am satisfied ."
+ },
+ {
+  "sentence": "This does n't destroy our culture , because our culture has changed .",
+  "correction": "This does n't destroy our culture , because our culture has changed ."
+ },
+ {
+  "sentence": "This does n't destroy our culture , because our culture has changed .",
+  "correction": "This does n't destroy our culture because our culture has changed ."
+ },
+ {
+  "sentence": "This does n't destroy our culture , because our culture has changed .",
+  "correction": "This does n't destroy our culture because our culture has changed ."
+ },
+ {
+  "sentence": "This does n't destroy our culture , because our culture has changed .",
+  "correction": "This does n't destroy our culture because our culture has changed ."
+ },
+ {
+  "sentence": "One can have alot of fun or enjoyment on the trip ; if you are guided by the person who known the area .",
+  "correction": "One can have a lot of fun or enjoyment on the trip if you are guided by a person who knows the area ."
+ },
+ {
+  "sentence": "One can have alot of fun or enjoyment on the trip ; if you are guided by the person who known the area .",
+  "correction": "One can have a lot of fun or enjoyment on the trip if you are guided by a person who knows the area ."
+ },
+ {
+  "sentence": "One can have alot of fun or enjoyment on the trip ; if you are guided by the person who known the area .",
+  "correction": "One can have a lot of fun and enjoyment on the trip if you are guided by a person who knows the area ."
+ },
+ {
+  "sentence": "One can have alot of fun or enjoyment on the trip ; if you are guided by the person who known the area .",
+  "correction": "One can have a lot of fun or enjoyment on the trip if they are guided by a person who knows the area ."
+ },
+ {
+  "sentence": "And the risk is one of these opportunities .",
+  "correction": "And the risk is one of these opportunities ."
+ },
+ {
+  "sentence": "And the risk is one of these opportunities .",
+  "correction": "The risk is one of these opportunities ."
+ },
+ {
+  "sentence": "And the risk is one of these opportunities .",
+  "correction": "And the risk is one of these opportunities ."
+ },
+ {
+  "sentence": "And the risk is one of these opportunities .",
+  "correction": "And risk is one of these opportunities ."
+ },
+ {
+  "sentence": "Fourtunately their topic becomes more clear by using this much amount of the concepts provided by the books .",
+  "correction": "Fortunately their topic becomes more clear by using this many concepts provided by the books ."
+ },
+ {
+  "sentence": "Fourtunately their topic becomes more clear by using this much amount of the concepts provided by the books .",
+  "correction": "Fortunately , their topic becomes more clear by using a lot of the concepts provided by the books ."
+ },
+ {
+  "sentence": "Fourtunately their topic becomes more clear by using this much amount of the concepts provided by the books .",
+  "correction": "Fortunately their topic becomes clearer by using this amount of the concepts provided by the books ."
+ },
+ {
+  "sentence": "Fourtunately their topic becomes more clear by using this much amount of the concepts provided by the books .",
+  "correction": "Fortunately , their topic becomes more clear by using this amount of concepts provided by the books ."
+ },
+ {
+  "sentence": "The most important thing , that you can do , is don=t tell him like a baby .",
+  "correction": "The most important thing that you can do is not tell him like a baby ."
+ },
+ {
+  "sentence": "The most important thing , that you can do , is don=t tell him like a baby .",
+  "correction": "The most important thing that you can do is not to talk to him like a baby ."
+ },
+ {
+  "sentence": "The most important thing , that you can do , is don=t tell him like a baby .",
+  "correction": "The most important thing that you can do is not talk to him like a baby ."
+ },
+ {
+  "sentence": "The most important thing , that you can do , is don=t tell him like a baby .",
+  "correction": "The most important thing that you can do is not to call him a baby ."
+ },
+ {
+  "sentence": "The first theory is that birds navigate in reference to celestial objects like the sun and stars .",
+  "correction": "The first theory is that birds navigate in reference to celestial objects like the sun and stars ."
+ },
+ {
+  "sentence": "The first theory is that birds navigate in reference to celestial objects like the sun and stars .",
+  "correction": "The first theory is that birds navigate in reference to celestial objects like the sun and stars ."
+ },
+ {
+  "sentence": "The first theory is that birds navigate in reference to celestial objects like the sun and stars .",
+  "correction": "The first theory is that birds navigate in reference to celestial objects , like the sun and stars ."
+ },
+ {
+  "sentence": "The first theory is that birds navigate in reference to celestial objects like the sun and stars .",
+  "correction": "The first theory is that birds navigate in reference to celestial objects like the sun and stars ."
+ },
+ {
+  "sentence": "I have great influence on my life .",
+  "correction": "I have great influence on my life ."
+ },
+ {
+  "sentence": "I have great influence on my life .",
+  "correction": "I have great influences in my life ."
+ },
+ {
+  "sentence": "I have great influence on my life .",
+  "correction": "I have great influence on my life ."
+ },
+ {
+  "sentence": "I have great influence on my life .",
+  "correction": "I have great influence on my life ."
+ },
+ {
+  "sentence": "And as a contradiction of this the professor said that dicease study is not designed very well .",
+  "correction": "As a contradiction of this the professor said that disease study is not designed very well ."
+ },
+ {
+  "sentence": "And as a contradiction of this the professor said that dicease study is not designed very well .",
+  "correction": "And as a contradiction to this , the professor said that deceasing study is not a good idea ."
+ },
+ {
+  "sentence": "And as a contradiction of this the professor said that dicease study is not designed very well .",
+  "correction": "And in contradiction to this , the professor said the disease study is not designed very well ."
+ },
+ {
+  "sentence": "And as a contradiction of this the professor said that dicease study is not designed very well .",
+  "correction": "In contradiction to this , the professor said that the disease study was not designed very well ."
+ },
+ {
+  "sentence": "This is in contrast to the point in the reading that advertising does not produce any effect on American epople because they receive bombardment from different sources .",
+  "correction": "This is in contrast to the point in the reading that says advertising does not have any effect on American people because they are bombarded from different sources ."
+ },
+ {
+  "sentence": "This is in contrast to the point in the reading that advertising does not produce any effect on American epople because they receive bombardment from different sources .",
+  "correction": "This is in contrast to the point in the reading that advertising does not produce any effect on American people because they receive bombardment from different sources ."
+ },
+ {
+  "sentence": "This is in contrast to the point in the reading that advertising does not produce any effect on American epople because they receive bombardment from different sources .",
+  "correction": "This passage contrasts the point that advertising does not affect the American people because they are bombarded by many different sources ."
+ },
+ {
+  "sentence": "This is in contrast to the point in the reading that advertising does not produce any effect on American epople because they receive bombardment from different sources .",
+  "correction": "This is in contrast to the point made in the reading that advertising does not produce any effect on American people because they receive a bombardment from different sources ."
+ },
+ {
+  "sentence": "They complete each other .",
+  "correction": "They complete each other ."
+ },
+ {
+  "sentence": "They complete each other .",
+  "correction": "They complete each other ."
+ },
+ {
+  "sentence": "They complete each other .",
+  "correction": "They complete each other ."
+ },
+ {
+  "sentence": "They complete each other .",
+  "correction": "They complete each other ."
+ },
+ {
+  "sentence": "However , she also said that some kinds of birds are shrink .",
+  "correction": "However , she also said that some kinds of birds are shrunken ."
+ },
+ {
+  "sentence": "However , she also said that some kinds of birds are shrink .",
+  "correction": "However , she also said that some kinds of birds are shrinks ."
+ },
+ {
+  "sentence": "However , she also said that some kinds of birds are shrink .",
+  "correction": "However , she also said that some kinds of birds are shrinking ."
+ },
+ {
+  "sentence": "However , she also said that some kinds of birds are shrink .",
+  "correction": "However , she also said that the number of different kinds of birds are shrinking ."
+ },
+ {
+  "sentence": "They share their views and ideas within a group .",
+  "correction": "They share their views and ideas within a group ."
+ },
+ {
+  "sentence": "They share their views and ideas within a group .",
+  "correction": "They share their views and ideas within the group ."
+ },
+ {
+  "sentence": "They share their views and ideas within a group .",
+  "correction": "They share their views and ideas within a group ."
+ },
+ {
+  "sentence": "They share their views and ideas within a group .",
+  "correction": "They share their views and ideas within the group ."
+ },
+ {
+  "sentence": "First , we can protect our enviroment by saving oil and gas",
+  "correction": "First , we can protect our environment by saving oil and gas ."
+ },
+ {
+  "sentence": "First , we can protect our enviroment by saving oil and gas",
+  "correction": "First , we can protect our environment by saving oil and gas"
+ },
+ {
+  "sentence": "First , we can protect our enviroment by saving oil and gas",
+  "correction": "First , we can protect our environment by saving oil and gas ."
+ },
+ {
+  "sentence": "First , we can protect our enviroment by saving oil and gas",
+  "correction": "First , we can protect our environment by saving oil and gas ."
+ },
+ {
+  "sentence": "The people attending this lecture will mostly be those that are specialists in the topic subject .",
+  "correction": "The people attending this lecture will mostly be those that are specialists in the topic ."
+ },
+ {
+  "sentence": "The people attending this lecture will mostly be those that are specialists in the topic subject .",
+  "correction": "The people attending this lecture will mostly be those that are specialists in the subject ."
+ },
+ {
+  "sentence": "The people attending this lecture will mostly be those that are specialists in the topic subject .",
+  "correction": "The people attending this lecture will mostly be those that are specialists on the topic ."
+ },
+ {
+  "sentence": "The people attending this lecture will mostly be those that are specialists in the topic subject .",
+  "correction": "The people attending this lecture will mostly be those who are specialists in the topic ."
+ },
+ {
+  "sentence": "They dont have to read spacific books and articles just because they love the topic .",
+  "correction": "They do n't have to read specific books and articles just because they love the topic ."
+ },
+ {
+  "sentence": "They dont have to read spacific books and articles just because they love the topic .",
+  "correction": "They do n't have to read specific books and articles just because they love the topic ."
+ },
+ {
+  "sentence": "They dont have to read spacific books and articles just because they love the topic .",
+  "correction": "They do n't have to read specific books and articles just because they love the topic ."
+ },
+ {
+  "sentence": "They dont have to read spacific books and articles just because they love the topic .",
+  "correction": "They do n't have to read specific books and articles just because they love the topic ."
+ },
+ {
+  "sentence": "At the time of emergency he / she could be of great help if he / she is aware of the child health problems and their cure .",
+  "correction": "At the time of an emergency he / she could be of great help if he / she is aware of the child health problems and their cure ."
+ },
+ {
+  "sentence": "At the time of emergency he / she could be of great help if he / she is aware of the child health problems and their cure .",
+  "correction": "At the time of emergency he/she could be of great help if he/she is aware of the child health problems and the cure ."
+ },
+ {
+  "sentence": "At the time of emergency he / she could be of great help if he / she is aware of the child health problems and their cure .",
+  "correction": "At the time of emergency , he/she could be of great help if he/she is aware of the child 's health problems and their cure ."
+ },
+ {
+  "sentence": "At the time of emergency he / she could be of great help if he / she is aware of the child health problems and their cure .",
+  "correction": "At the time of an emergency he / she could be of great help if he / she is aware of the child 's health problems and their cure ."
+ },
+ {
+  "sentence": "It would be similar to adding a few drops of water to the ocean .",
+  "correction": "It would be similar to add a few drops of water to the ocean ."
+ },
+ {
+  "sentence": "It would be similar to adding a few drops of water to the ocean .",
+  "correction": "It would be similar to adding a few drops of water to the ocean ."
+ },
+ {
+  "sentence": "It would be similar to adding a few drops of water to the ocean .",
+  "correction": "It would be similar to adding a few drops of water to the ocean ."
+ },
+ {
+  "sentence": "It would be similar to adding a few drops of water to the ocean .",
+  "correction": "It would be similar to adding a few drops of water to the ocean ."
+ },
+ {
+  "sentence": "Bus , Subway , even plane are means of travelling which can be used in a lot of areas .",
+  "correction": "Bus , subway , even planes are means of travelling , which can be used in a lot of areas ."
+ },
+ {
+  "sentence": "Bus , Subway , even plane are means of travelling which can be used in a lot of areas .",
+  "correction": "The buses , subways , and even planes are means of travelling , which can be used in a lot of areas ."
+ },
+ {
+  "sentence": "Bus , Subway , even plane are means of travelling which can be used in a lot of areas .",
+  "correction": "Bus , subway , and even plane are means of traveling that can be used in a lot of areas ."
+ },
+ {
+  "sentence": "Bus , Subway , even plane are means of travelling which can be used in a lot of areas .",
+  "correction": "Buses , subways , and even planes are means of traveling that can be used in a lot of areas ."
+ },
+ {
+  "sentence": "For example , famous businessman travel over the world everyday !",
+  "correction": "For example , famous businessman travel over the world everyday !"
+ },
+ {
+  "sentence": "For example , famous businessman travel over the world everyday !",
+  "correction": "For example , famous businessman travel all over the world everyday !"
+ },
+ {
+  "sentence": "For example , famous businessman travel over the world everyday !",
+  "correction": "For example , famous businessmen travel over the world every day !"
+ },
+ {
+  "sentence": "For example , famous businessman travel over the world everyday !",
+  "correction": "For example , famous businessmen travel all over the world everyday !"
+ },
+ {
+  "sentence": "He knows many countries around the world .",
+  "correction": "He knows many countries around the world ."
+ },
+ {
+  "sentence": "He knows many countries around the world .",
+  "correction": "He knows many countries around the world ."
+ },
+ {
+  "sentence": "He knows many countries around the world .",
+  "correction": "He knows of many countries around the world ."
+ },
+ {
+  "sentence": "He knows many countries around the world .",
+  "correction": "He knows many countries around the world ."
+ },
+ {
+  "sentence": "But , on the contrary , he argues thlat fluoride also some disadvantage .",
+  "correction": "But , on the contrary , he argues that fluoride also has some disadvantages ."
+ },
+ {
+  "sentence": "But , on the contrary , he argues thlat fluoride also some disadvantage .",
+  "correction": "But , on the contrary , he argues that fluoride also has some disadvantages ."
+ },
+ {
+  "sentence": "But , on the contrary , he argues thlat fluoride also some disadvantage .",
+  "correction": "But on the contrary , he argues that fluoride also has some disadvantages ."
+ },
+ {
+  "sentence": "But , on the contrary , he argues thlat fluoride also some disadvantage .",
+  "correction": "But , on the contrary , he argues that fluoride also has some disadvantages ."
+ },
+ {
+  "sentence": "You will be like in one or two or three academic , you get it coz everything you know you can appear it use together to make something better .",
+  "correction": "You will be like in one or two or three academic , you get it coz everything you know you can appear it use together to make something better ."
+ },
+ {
+  "sentence": "You will be like in one or two or three academic , you get it coz everything you know you can appear it use together to make something better .",
+  "correction": "You will be like in one or two or three academic , you get it coz everything you know you can appear it use together to make something better ."
+ },
+ {
+  "sentence": "You will be like in one or two or three academic , you get it coz everything you know you can appear it use together to make something better .",
+  "correction": "You will be like in one or two or three academic , you get it coz everything you know you can appear it use together to make something better ."
+ },
+ {
+  "sentence": "You will be like in one or two or three academic , you get it coz everything you know you can appear it use together to make something better .",
+  "correction": "You will be in one to three academic fields and you understand it because everything you know can be used together to make something better ."
+ },
+ {
+  "sentence": "This is probably because we are all , in general , pampered from the time we were born until well into our adolescence .",
+  "correction": "This is probably because we are all , in general , pampered from the time we are born until well into our adolescence ."
+ },
+ {
+  "sentence": "This is probably because we are all , in general , pampered from the time we were born until well into our adolescence .",
+  "correction": "This is probably because we are all , in general , pampered from the time we are born until well into our adolescence ."
+ },
+ {
+  "sentence": "This is probably because we are all , in general , pampered from the time we were born until well into our adolescence .",
+  "correction": "This is probably because we are all , in general , pampered from the time we are born until well into our adolescence ."
+ },
+ {
+  "sentence": "This is probably because we are all , in general , pampered from the time we were born until well into our adolescence .",
+  "correction": "This is probably because we are all , in general , pampered from the time we were born until well into our adolescence ."
+ },
+ {
+  "sentence": "it is ture .",
+  "correction": "It is true ."
+ },
+ {
+  "sentence": "it is ture .",
+  "correction": "It is true ."
+ },
+ {
+  "sentence": "it is ture .",
+  "correction": "It is true ."
+ },
+ {
+  "sentence": "it is ture .",
+  "correction": "It is true ."
+ },
+ {
+  "sentence": "So I think we can not live if old people could not find siences and tecnologies and they did not developped . ",
+  "correction": "So I think we would not be alive if our ancestors did not develop sciences and technologies . "
+ },
+ {
+  "sentence": "So I think we can not live if old people could not find siences and tecnologies and they did not developped . ",
+  "correction": "So I think we could not live if older people did not develop science and technologies . "
+ },
+ {
+  "sentence": "So I think we can not live if old people could not find siences and tecnologies and they did not developped . ",
+  "correction": "So I think we can not live if old people could not find science and technologies and they did not develop . "
+ },
+ {
+  "sentence": "So I think we can not live if old people could not find siences and tecnologies and they did not developped . ",
+  "correction": "So I think we can not live if old people can not find the science and technology that has not been developed . "
+ },
+ {
+  "sentence": "Since most urban areas are occupied with cars , they are all facing up with an irresistible problem of air and noise pollution . ",
+  "correction": "Since most urban areas are occupied with cars , they are facing a problem of air and noise pollution . "
+ },
+ {
+  "sentence": "Since most urban areas are occupied with cars , they are all facing up with an irresistible problem of air and noise pollution . ",
+  "correction": "Since most urban areas are congested with cars , they all face the terrible problem of air and noise pollution . "
+ },
+ {
+  "sentence": "Since most urban areas are occupied with cars , they are all facing up with an irresistible problem of air and noise pollution . ",
+  "correction": "Since most urban areas are occupied with cars , they are all face upped with an irresistible problem of air and noise pollution . "
+ },
+ {
+  "sentence": "Since most urban areas are occupied with cars , they are all facing up with an irresistible problem of air and noise pollution . ",
+  "correction": "Since most urban areas are teeming with cars , they are all facing the unavoidable problem of air and noise pollution . "
+ },
+ {
+  "sentence": "Students can focus on only a few subjects they are intwerested in and they will become an experts in those areas . ",
+  "correction": "Students can focus on only a few subjects they are interested in and they will become experts in those areas . "
+ },
+ {
+  "sentence": "Students can focus on only a few subjects they are intwerested in and they will become an experts in those areas . ",
+  "correction": "Students can focus on only a few subjects they are interested in and they will become experts in those areas . "
+ },
+ {
+  "sentence": "Students can focus on only a few subjects they are intwerested in and they will become an experts in those areas . ",
+  "correction": "Students can focus on only a few subjects they are interested in and they will become an expert in those areas . "
+ },
+ {
+  "sentence": "Students can focus on only a few subjects they are intwerested in and they will become an experts in those areas . ",
+  "correction": "Students can focus on only a few subjects they are interested in and they will become an expert in those areas . "
+ },
+ {
+  "sentence": "And it was very easy to me to understand why he always brang bad marks at home . ",
+  "correction": "I could very easily understand why he would always bring bad marks home . "
+ },
+ {
+  "sentence": "And it was very easy to me to understand why he always brang bad marks at home . ",
+  "correction": "And it was very easy for me to understand why he always brought bad marks home . "
+ },
+ {
+  "sentence": "And it was very easy to me to understand why he always brang bad marks at home . ",
+  "correction": "And it was very easy for me to understand why he always brings bad marks home . "
+ },
+ {
+  "sentence": "And it was very easy to me to understand why he always brang bad marks at home . ",
+  "correction": "And it was very easy for me to understand why he always bringing bad marks home . "
+ },
+ {
+  "sentence": "Inorder to do this , they would need to learn additionally skills , either theoretical or practical , that would increase their understanding and future application of their chosen subject . ",
+  "correction": "In order to do this , they would need to learn additional skills , either theoretical or practical , that would increase their understanding and application of their chosen subject . "
+ },
+ {
+  "sentence": "Inorder to do this , they would need to learn additionally skills , either theoretical or practical , that would increase their understanding and future application of their chosen subject . ",
+  "correction": "In order to do this , they would need to learn additional skills , either theoretical or practical , that would increase their understanding and future application of their chosen subject . "
+ },
+ {
+  "sentence": "Inorder to do this , they would need to learn additionally skills , either theoretical or practical , that would increase their understanding and future application of their chosen subject . ",
+  "correction": "In order to do this , they need to learn additional skills , either theoretical or practical , that will increase their understanding and the future application of their chosen subjects . "
+ },
+ {
+  "sentence": "Inorder to do this , they would need to learn additionally skills , either theoretical or practical , that would increase their understanding and future application of their chosen subject . ",
+  "correction": "In order to do this , they would need to learn additionally skills , either theoretical or practical , that would increase their understanding and future application of their chosen subject . "
+ },
+ {
+  "sentence": "He/she wants to know everything about the universe , wants to know everything about the God , the death etc. these some concepts that everyone can encourage a lot of ideas but the facts are not found yet . ",
+  "correction": "He or she wants to know everything about the universe , God , and death , these are some concepts that everyone can encourage ideas , but no facts have been found yet . "
+ },
+ {
+  "sentence": "He/she wants to know everything about the universe , wants to know everything about the God , the death etc. these some concepts that everyone can encourage a lot of ideas but the facts are not found yet . ",
+  "correction": "He/she wants to know everything about the universe , God , death , etc. ; these are concepts that encourage a lot of ideas , but the facts have not been found yet . "
+ },
+ {
+  "sentence": "He/she wants to know everything about the universe , wants to know everything about the God , the death etc. these some concepts that everyone can encourage a lot of ideas but the facts are not found yet . ",
+  "correction": "He/she wants to know everything about the universe , everything about God , death etc. ; these same concepts that encourage a lot of ideas but the facts are not found yet . "
+ },
+ {
+  "sentence": "He/she wants to know everything about the universe , wants to know everything about the God , the death etc. these some concepts that everyone can encourage a lot of ideas but the facts are not found yet . ",
+  "correction": "He/she wants to know everything about the universe , wants to know everything about God , death , etc. and some of these concepts that can encourage a lot of ideas , but the facts are not found yet . "
+ },
+ {
+  "sentence": "so this test is very important with theirs . ",
+  "correction": "This test is very important to them . "
+ },
+ {
+  "sentence": "so this test is very important with theirs . ",
+  "correction": "So this test is very important to them . "
+ },
+ {
+  "sentence": "so this test is very important with theirs . ",
+  "correction": "So , this test is very important along with theirs . "
+ },
+ {
+  "sentence": "so this test is very important with theirs . ",
+  "correction": "So this test is very important among them . "
+ },
+ {
+  "sentence": "It is obvious that after returning i was tired and the night is meant to sleep ! . ",
+  "correction": "It was obvious after returning that I was tired , and the night is meant to sleep ! "
+ },
+ {
+  "sentence": "It is obvious that after returning i was tired and the night is meant to sleep ! . ",
+  "correction": "It is obvious that after returning I was tired and the night is meant for sleeping ! . "
+ },
+ {
+  "sentence": "It is obvious that after returning i was tired and the night is meant to sleep ! . ",
+  "correction": "It was obvious that I was tired after returning , and the night is meant for sleep ! "
+ },
+ {
+  "sentence": "It is obvious that after returning i was tired and the night is meant to sleep ! . ",
+  "correction": "It is obvious that after returning , I was tired and the night is meant for sleep ! "
+ },
+ {
+  "sentence": "Even though she does not have job , she also need car to use pick up her kids or go shopping . ",
+  "correction": "Even though she does not have a job , she also needs a car to pick up her kids or go shopping . "
+ },
+ {
+  "sentence": "Even though she does not have job , she also need car to use pick up her kids or go shopping . ",
+  "correction": "Even though she does not have job , she also needs a car to use to pick up her kids or go shopping . "
+ },
+ {
+  "sentence": "Even though she does not have job , she also need car to use pick up her kids or go shopping . ",
+  "correction": "Even though she does not have a job , she also needs a car to pick up her kids or go shopping . "
+ },
+ {
+  "sentence": "Even though she does not have job , she also need car to use pick up her kids or go shopping . ",
+  "correction": "Even though she does not have a job , she also needs a car to use to pick up her kids or go shopping . "
+ },
+ {
+  "sentence": "However , one student pointed out my mistakes . ",
+  "correction": "However , one student pointed out my mistakes . "
+ },
+ {
+  "sentence": "However , one student pointed out my mistakes . ",
+  "correction": "However , one student pointed out my mistakes . "
+ },
+ {
+  "sentence": "However , one student pointed out my mistakes . ",
+  "correction": "However , one student pointed out my mistakes . "
+ },
+ {
+  "sentence": "However , one student pointed out my mistakes . ",
+  "correction": "However , one student pointed out my mistakes . "
+ },
+ {
+  "sentence": "So the conclusion is clear . ",
+  "correction": "So , the conclusion is clear . "
+ },
+ {
+  "sentence": "So the conclusion is clear . ",
+  "correction": "So the conclusion is clear . "
+ },
+ {
+  "sentence": "So the conclusion is clear . ",
+  "correction": "So the conclusion is clear . "
+ },
+ {
+  "sentence": "So the conclusion is clear . ",
+  "correction": "So , the conclusion is clear . "
+ },
+ {
+  "sentence": "According to me , there are two kind of studies : the ones highly technical and the others . ",
+  "correction": "According to me , there are two kind of studies : the highly technical ones and the others . "
+ },
+ {
+  "sentence": "According to me , there are two kind of studies : the ones highly technical and the others . ",
+  "correction": "According to me , there are two kind of studies : the highly technical ones and the others . "
+ },
+ {
+  "sentence": "According to me , there are two kind of studies : the ones highly technical and the others . ",
+  "correction": "As far as I 'm concerned , there are two kind of studies : the highly technical ones and the others . "
+ },
+ {
+  "sentence": "According to me , there are two kind of studies : the ones highly technical and the others . ",
+  "correction": "According to me , there are two kinds of studies : the highly technical ones and the others . "
+ },
+ {
+  "sentence": "For instance we can consider that evolution exists . ",
+  "correction": "For instance we can consider that evolution exists . "
+ },
+ {
+  "sentence": "For instance we can consider that evolution exists . ",
+  "correction": "For instance , we may consider that evolution exists . "
+ },
+ {
+  "sentence": "For instance we can consider that evolution exists . ",
+  "correction": "For instance , we can consider that evolution exists . "
+ },
+ {
+  "sentence": "For instance we can consider that evolution exists . ",
+  "correction": "For instance , we can consider that evolution exists . "
+ },
+ {
+  "sentence": "And they can make a products and sell it cheaper than most countries . ",
+  "correction": "And they can make a product and sell it cheaper than most countries . "
+ },
+ {
+  "sentence": "And they can make a products and sell it cheaper than most countries . ",
+  "correction": "And they can make products and sell them cheaper than most countries . "
+ },
+ {
+  "sentence": "And they can make a products and sell it cheaper than most countries . ",
+  "correction": "And they can make a product , and sell it cheaper than most countries . "
+ },
+ {
+  "sentence": "And they can make a products and sell it cheaper than most countries . ",
+  "correction": "And they can make products and sell them cheaper than most countries . "
+ },
+ {
+  "sentence": "finally the third cause that birds use a type of internal compass , birds have crystals of the mineral magetite embedded in their break . ",
+  "correction": "Finally , the third piece of evidence that birds use a type of internal compass is that birds have crystals of the mineral magnetite embedded in their break . "
+ },
+ {
+  "sentence": "finally the third cause that birds use a type of internal compass , birds have crystals of the mineral magetite embedded in their break . ",
+  "correction": "Finally , the third reason is that that birds use a type of internal compass ; birds have crystals of the mineral magnetite embedded in their beaks . "
+ },
+ {
+  "sentence": "finally the third cause that birds use a type of internal compass , birds have crystals of the mineral magetite embedded in their break . ",
+  "correction": "Finally , the third cause is that birds use a type of internal compass , so birds have crystals of the mineral magnetite embedded in their break . "
+ },
+ {
+  "sentence": "finally the third cause that birds use a type of internal compass , birds have crystals of the mineral magetite embedded in their break . ",
+  "correction": "Finally the third cause that birds use as a type of internal compass are crystals of the mineral magetite embedded in their beak . "
+ },
+ {
+  "sentence": "By using new things , which is usually is un known for them and it includes risk with it . ",
+  "correction": "By using new things what are usually unknown to them , they are taking a risk . "
+ },
+ {
+  "sentence": "By using new things , which is usually is un known for them and it includes risk with it . ",
+  "correction": "By using new things , which is usually uncommon for them , it includes risk with it . "
+ },
+ {
+  "sentence": "By using new things , which is usually is un known for them and it includes risk with it . ",
+  "correction": "By using new things , which is usually unknown for them and involves risk . "
+ },
+ {
+  "sentence": "By using new things , which is usually is un known for them and it includes risk with it . ",
+  "correction": "By using new things , which are usually unknown to them and include some risk . "
+ },
+ {
+  "sentence": "Therfore , we have to reduced sulfur and nitrogen dioxide . ",
+  "correction": "Therefore , we have to reduce sulfur and nitrogen dioxide . "
+ },
+ {
+  "sentence": "Therfore , we have to reduced sulfur and nitrogen dioxide . ",
+  "correction": "Therefore , we have to reduce sulfur and nitrogen dioxide . "
+ },
+ {
+  "sentence": "Therfore , we have to reduced sulfur and nitrogen dioxide . ",
+  "correction": "Therefore , we have to reduce sulfur and nitrogen dioxide . "
+ },
+ {
+  "sentence": "Therfore , we have to reduced sulfur and nitrogen dioxide . ",
+  "correction": "Therefore , we have to reduce sulfur and nitrogen dioxide . "
+ },
+ {
+  "sentence": "But ideas of how you can solve this problem will actually give you a solution to the problem . ",
+  "correction": "Ideas on how you can solve this problem will actually give you a solution to the problem . "
+ },
+ {
+  "sentence": "But ideas of how you can solve this problem will actually give you a solution to the problem . ",
+  "correction": "But ideas on how you can solve this problem will actually give you a solution to the problem . "
+ },
+ {
+  "sentence": "But ideas of how you can solve this problem will actually give you a solution to the problem . ",
+  "correction": "But ideas on how you can solve this problem will actually give you a solution to the problem . "
+ },
+ {
+  "sentence": "But ideas of how you can solve this problem will actually give you a solution to the problem . ",
+  "correction": "But ideas of how you can solve this problem , will actually give you a solution to the problem . "
+ },
+ {
+  "sentence": "Secondly , the information in videos is very delivered in format , it very familiar with students . ",
+  "correction": "Secondly , the information in the videos is in a common format , the students are familiar with it . "
+ },
+ {
+  "sentence": "Secondly , the information in videos is very delivered in format , it very familiar with students . ",
+  "correction": "Secondly , the information in the videos is delivered in a format that is very familiar with students . "
+ },
+ {
+  "sentence": "Secondly , the information in videos is very delivered in format , it very familiar with students . ",
+  "correction": "Secondly , the information in videos is delivered in format and is very familiar to students . "
+ },
+ {
+  "sentence": "Secondly , the information in videos is very delivered in format , it very familiar with students . ",
+  "correction": "Secondly , information in videos is delivered in a format very familiar to students . "
+ },
+ {
+  "sentence": "And there are a lot of scientist who just specialize in one specific subject discover important concepts or invent things which make our society more convenience . ",
+  "correction": "And there are a lot of scientists who specialize in one specific subject that discover important concepts or invent things which make our society more convenient . "
+ },
+ {
+  "sentence": "And there are a lot of scientist who just specialize in one specific subject discover important concepts or invent things which make our society more convenience . ",
+  "correction": "There are a lot of scientists who specialize in one specific subject to discover important concepts or invent things which make our society more convenient . "
+ },
+ {
+  "sentence": "And there are a lot of scientist who just specialize in one specific subject discover important concepts or invent things which make our society more convenience . ",
+  "correction": "And there are a lot of scientists who just specialize in one subject , learning important concepts or inventing things that make life in our society more convenient . "
+ },
+ {
+  "sentence": "And there are a lot of scientist who just specialize in one specific subject discover important concepts or invent things which make our society more convenience . ",
+  "correction": "And there are a lot of scientists who specialize in one specific subject to discover important concepts or to invent things which make our society more convenient . "
+ },
+ {
+  "sentence": "While the child spends about five hours or less with his parents , and whenever that child wants to go out he will most probably go out with his friends which are his classmates , so most of his school life will be spent with his classmates , and this will have a great affect on his personality which will determine the way the child will react towards his school and will determine how he will use his life . ",
+  "correction": "While the child spends about five hours or less with his parents , and whenever that child wants to go out he will probably go out with his friends which are classmates , so most of his school life will be spent with his classmates and this will have a great impact on his personality which will determine the way the child will react towards his school and how he will live out his life . "
+ },
+ {
+  "sentence": "While the child spends about five hours or less with his parents , and whenever that child wants to go out he will most probably go out with his friends which are his classmates , so most of his school life will be spent with his classmates , and this will have a great affect on his personality which will determine the way the child will react towards his school and will determine how he will use his life . ",
+  "correction": "While the child spends about five hours or less with his parents and whenever that child wants to go out he will probably go out with his friends who are his classmates , so most of his school life will be spent with his classmates , and this will have a great affect on his personality which will determine the way the child will react toward his school and will determine how he will use his life . "
+ },
+ {
+  "sentence": "While the child spends about five hours or less with his parents , and whenever that child wants to go out he will most probably go out with his friends which are his classmates , so most of his school life will be spent with his classmates , and this will have a great affect on his personality which will determine the way the child will react towards his school and will determine how he will use his life . ",
+  "correction": "The child spends about five hours or less with his parents , and whenever that child wants to go out he will probably go out with his friends , who are his classmates , so most of his school life will be spent with his classmates , and this will have a great effect on his personality , which in turn will determine the way the child will act at school and spend his life . "
+ },
+ {
+  "sentence": "While the child spends about five hours or less with his parents , and whenever that child wants to go out he will most probably go out with his friends which are his classmates , so most of his school life will be spent with his classmates , and this will have a great affect on his personality which will determine the way the child will react towards his school and will determine how he will use his life . ",
+  "correction": "While the child spends about five hours or less with his parents and whenever the child wants to go out he will most likely go out with his friends which are his classmates , so most of his school life will be spent with his classmates and this will have a great effect on his personality which will determine the way the child reacts toward his school and how he will use his life . "
+ },
+ {
+  "sentence": "For the older , the phone , the only funciton , in some means , is a job , a project , a imper wich master call on him with the related to the jobs . ",
+  "correction": "For older people , the phone 's only function , in some ways , is a job or project , where a master will call on him to help with related jobs . "
+ },
+ {
+  "sentence": "For the older , the phone , the only funciton , in some means , is a job , a project , a imper wich master call on him with the related to the jobs . ",
+  "correction": "For the elderly , the only function of the phone , in some respects , is to do a job , a project , an implement on which a master can call him to do a job . "
+ },
+ {
+  "sentence": "For the older , the phone , the only funciton , in some means , is a job , a project , a imper wich master call on him with the related to the jobs . ",
+  "correction": "For the older phone , the only function , in some means , is a job or a project , so it 's important which master calls on him with the related jobs . "
+ },
+ {
+  "sentence": "For the older , the phone , the only funciton , in some means , is a job , a project , a imper wich master call on him with the related to the jobs . ",
+  "correction": "For the older phone , the only function is a job or a project in which the master calls on him with information related to the jobs . "
+ },
+ {
+  "sentence": "We will continue to invent and produce more sofisticated technology based on our own comfort which will decrease our ability to perform physical activities . ",
+  "correction": "We will continue to invent and produce more sophisticated technology based on our own comfort , which will decrease our ability to perform physical activities . "
+ },
+ {
+  "sentence": "We will continue to invent and produce more sofisticated technology based on our own comfort which will decrease our ability to perform physical activities . ",
+  "correction": "We will continue to invent and produce more sophisticated technology based on our own comfort which will decrease our ability to perform physical activities . "
+ },
+ {
+  "sentence": "We will continue to invent and produce more sofisticated technology based on our own comfort which will decrease our ability to perform physical activities . ",
+  "correction": "We will continue to invent and produce more sophisticated technology based on our own comfort , which will decrease our ability to perform physical activities . "
+ },
+ {
+  "sentence": "We will continue to invent and produce more sofisticated technology based on our own comfort which will decrease our ability to perform physical activities . ",
+  "correction": "We will continue to invent and produce more sophisticated technology based on our own comfort which will decrease our ability to perform physical activities . "
+ },
+ {
+  "sentence": "Or , \" Is this the right thing to do ? \" ",
+  "correction": "Or , \" is this the right thing to do ? \" "
+ },
+ {
+  "sentence": "Or , \" Is this the right thing to do ? \" ",
+  "correction": "Or , \" Is this the right thing to do ? \" "
+ },
+ {
+  "sentence": "Or , \" Is this the right thing to do ? \" ",
+  "correction": "Or , \" Is this the right thing to do ? \" "
+ },
+ {
+  "sentence": "Or , \" Is this the right thing to do ? \" ",
+  "correction": "Or , \" Is this the right thing to do ? \" "
+ },
+ {
+  "sentence": "One good way to be always safe and have a good time is to travel with a group and chose a good tour guide . ",
+  "correction": "One good way to be safe and have a good time is to travel with a group , and find a good tour guide . "
+ },
+ {
+  "sentence": "One good way to be always safe and have a good time is to travel with a group and chose a good tour guide . ",
+  "correction": "One good way to always be safe and have a good time is to travel with a group and choose a good tour guide . "
+ },
+ {
+  "sentence": "One good way to be always safe and have a good time is to travel with a group and chose a good tour guide . ",
+  "correction": "One good way to always be safe and have a good time is to travel with a group and choose a good tour guide . "
+ },
+ {
+  "sentence": "One good way to be always safe and have a good time is to travel with a group and chose a good tour guide . ",
+  "correction": "One good way to always be safe and have a good time is to travel with a group and chose a good tour guide . "
+ },
+ {
+  "sentence": "Education is the basis of opportunities and the amount of subjects in which a person has knowledge conditions his or her opportunities in very important aspects of life like work and even helping others . ",
+  "correction": "Education is the basis of opportunities , and the amount of subjects in which a person has knowledge , provides more opportunities in all aspects of life like work and helping others . "
+ },
+ {
+  "sentence": "Education is the basis of opportunities and the amount of subjects in which a person has knowledge conditions his or her opportunities in very important aspects of life like work and even helping others . ",
+  "correction": "Education is the basis of opportunities and the amount of subjects in which a person has knowledge conditions his or her opportunities in very important aspects of life like work and even helping others . "
+ },
+ {
+  "sentence": "Education is the basis of opportunities and the amount of subjects in which a person has knowledge conditions his or her opportunities in very important aspects of life like work and even helping others . ",
+  "correction": "Education is the key to many opportunities , and the number of subjects in which a person is knowledgable affects his or her opportunities in many important aspects of life , such as work and even when it comes to helping others . "
+ },
+ {
+  "sentence": "Education is the basis of opportunities and the amount of subjects in which a person has knowledge conditions his or her opportunities in very important aspects of life like work and even helping others . ",
+  "correction": "Education is the basis of opportunities , and the amount of subjects in which a person has knowledge conditions his or her opportunities in very important aspects of life like work and even helping others . "
+ },
+ {
+  "sentence": "First of all , old houses are not necessarily suited to the needs of mordern residents . ",
+  "correction": "First of all , old houses are not necessarily suited to the needs of mordern residents . "
+ },
+ {
+  "sentence": "First of all , old houses are not necessarily suited to the needs of mordern residents . ",
+  "correction": "First of all , old houses are not necessarily suited to the needs of mordern residents . "
+ },
+ {
+  "sentence": "First of all , old houses are not necessarily suited to the needs of mordern residents . ",
+  "correction": "First of all , old houses are not necessarily suited to the needs of modern residents . "
+ },
+ {
+  "sentence": "First of all , old houses are not necessarily suited to the needs of mordern residents . ",
+  "correction": "First of all , old houses are not necessarily suited to the needs of modern residents . "
+ },
+ {
+  "sentence": "Fish firming uses the lots of special products such as fish meal . ",
+  "correction": "Fish firming uses the lots of special products such as fish meal . "
+ },
+ {
+  "sentence": "Fish firming uses the lots of special products such as fish meal . ",
+  "correction": "Fish farming uses lots of special products such as fish meal . "
+ },
+ {
+  "sentence": "Fish firming uses the lots of special products such as fish meal . ",
+  "correction": "Fish farming uses a lot of special products , such as fish meal . "
+ },
+ {
+  "sentence": "Fish firming uses the lots of special products such as fish meal . ",
+  "correction": "Fish firming uses a lot of special products such as fish meal . "
+ },
+ {
+  "sentence": "But , even if this student passes the course , he/she will not be a succesfull lawyer in the future about contracts . ",
+  "correction": "But , even if this student passes the course , he/she will not be a successful lawyer in the future about contracts . "
+ },
+ {
+  "sentence": "But , even if this student passes the course , he/she will not be a succesfull lawyer in the future about contracts . ",
+  "correction": "But , even if this student passes the course , he or she will not be a succesful contracts lawyer in the future . "
+ },
+ {
+  "sentence": "But , even if this student passes the course , he/she will not be a succesfull lawyer in the future about contracts . ",
+  "correction": "But even if this student passes the course , he/she will not be a successful lawyer in the future in the area of contracts . "
+ },
+ {
+  "sentence": "But , even if this student passes the course , he/she will not be a succesfull lawyer in the future about contracts . ",
+  "correction": "But , even if this student passes the course , he/she will not be a successful lawyer in the future about contracts . "
+ },
+ {
+  "sentence": "I think that the car , twenty years from now will use electric fuel not gasoline . ",
+  "correction": "I think that the car , twenty years from now , will use electric fuel , and not gasoline . "
+ },
+ {
+  "sentence": "I think that the car , twenty years from now will use electric fuel not gasoline . ",
+  "correction": "I think that the car , twenty years from now , will use electric fuel rather than gasoline . "
+ },
+ {
+  "sentence": "I think that the car , twenty years from now will use electric fuel not gasoline . ",
+  "correction": "I think that the car , twenty years from now , will use electric fuel and not gasoline . "
+ },
+ {
+  "sentence": "I think that the car , twenty years from now will use electric fuel not gasoline . ",
+  "correction": "I think that the car , twenty years from now , will use electric fuel not gasoline . "
+ },
+ {
+  "sentence": "Take toys for example , advertisments that target children in particular are the best example of the way advertisements create a false image of the product . ",
+  "correction": "Take toys for example , advertisements that target children in particular are the best example of the way advertisements create a false image of the product . "
+ },
+ {
+  "sentence": "Take toys for example , advertisments that target children in particular are the best example of the way advertisements create a false image of the product . ",
+  "correction": "Toy advertisements that target children are a good example of the way commercials can create a false image of the product . "
+ },
+ {
+  "sentence": "Take toys for example , advertisments that target children in particular are the best example of the way advertisements create a false image of the product . ",
+  "correction": "Take toys , for example ; advertisements that target children in particular are the best example of the way advertisements create a false image of the product . "
+ },
+ {
+  "sentence": "Take toys for example , advertisments that target children in particular are the best example of the way advertisements create a false image of the product . ",
+  "correction": "Take toys for example , advertisments that target children in particular are the best example of the way advertisements create a false image of the product . "
+ },
+ {
+  "sentence": "Even the magnitides on Mars are no evidence of life on Mars . ",
+  "correction": "Even the magnitudes on Mars are no evidence of life on Mars . "
+ },
+ {
+  "sentence": "Even the magnitides on Mars are no evidence of life on Mars . ",
+  "correction": "Even the magnitides on Mars are no evidence of life on that planet . "
+ },
+ {
+  "sentence": "Even the magnitides on Mars are no evidence of life on Mars . ",
+  "correction": "Even the magnitudes on Mars provide no evidence of life on Mars . "
+ },
+ {
+  "sentence": "Even the magnitides on Mars are no evidence of life on Mars . ",
+  "correction": "Even the magnitudes on Mars are no evidence of life on Mars . "
+ },
+ {
+  "sentence": "These kind of fish ca n't live so long in water that contain salt . ",
+  "correction": "These kind of fish ca n't live so long in water that contain salt . "
+ },
+ {
+  "sentence": "These kind of fish ca n't live so long in water that contain salt . ",
+  "correction": "These species of fish ca n't live very long in water that contains salt . "
+ },
+ {
+  "sentence": "These kind of fish ca n't live so long in water that contain salt . ",
+  "correction": "These kinds of fish ca n't live as long in salt water . "
+ },
+ {
+  "sentence": "These kind of fish ca n't live so long in water that contain salt . ",
+  "correction": "These kind of fish ca n't live long in water that contain salt . "
+ },
+ {
+  "sentence": "It is the main resource for the cars to be working . ",
+  "correction": "It is the main resource that cars need to run . "
+ },
+ {
+  "sentence": "It is the main resource for the cars to be working . ",
+  "correction": "It is the main resource needed for the cars to work . "
+ },
+ {
+  "sentence": "It is the main resource for the cars to be working . ",
+  "correction": "It is the main resource for the cars to be working . "
+ },
+ {
+  "sentence": "It is the main resource for the cars to be working . ",
+  "correction": "It is the main resource needed by cars to work . "
+ },
+ {
+  "sentence": "There fore , he likes to do arisky and strainge things and he enjoy it . ",
+  "correction": "Therefore , he likes to do risky and strange things , and he enjoys it . "
+ },
+ {
+  "sentence": "There fore , he likes to do arisky and strainge things and he enjoy it . ",
+  "correction": "Therefore , he likes to do risky and strange things , and he enjoys it . "
+ },
+ {
+  "sentence": "There fore , he likes to do arisky and strainge things and he enjoy it . ",
+  "correction": "Therefore , he likes to do risky and strange things and he enjoys it . "
+ },
+ {
+  "sentence": "There fore , he likes to do arisky and strainge things and he enjoy it . ",
+  "correction": "Therefore he likes to do risky and strange things , and he enjoys it . "
+ },
+ {
+  "sentence": "It 's really a good film . ",
+  "correction": "It 's a really good film . "
+ },
+ {
+  "sentence": "It 's really a good film . ",
+  "correction": "It 's really a good film . "
+ },
+ {
+  "sentence": "It 's really a good film . ",
+  "correction": "It 's a really good film . "
+ },
+ {
+  "sentence": "It 's really a good film . ",
+  "correction": "It 's really a good film . "
+ },
+ {
+  "sentence": "Carusage in the United States is very important in every day life , aswell as in many latinamerican countries , and thirdworld countries . ",
+  "correction": "Car usage in the United States is very important in every day life , as well as in many Latin American countries , and third world countries . "
+ },
+ {
+  "sentence": "Carusage in the United States is very important in every day life , aswell as in many latinamerican countries , and thirdworld countries . ",
+  "correction": "Access to a car is very important in every day life in the United States , as well as in many Latin American countries and third-world countries . "
+ },
+ {
+  "sentence": "Carusage in the United States is very important in every day life , aswell as in many latinamerican countries , and thirdworld countries . ",
+  "correction": "Car usage in the United States is very important in everyday life , as well as in many Latin American and Third World countries . "
+ },
+ {
+  "sentence": "Carusage in the United States is very important in every day life , aswell as in many latinamerican countries , and thirdworld countries . ",
+  "correction": "Car usage , in the United States , is very important in every day life , as well as in many Latin American countries and third world countries . "
+ },
+ {
+  "sentence": "Peolple like to drive different types of models and they want some thinmg extra in it . ",
+  "correction": "Peolple like to drive different types of models and they want something extra in it . "
+ },
+ {
+  "sentence": "Peolple like to drive different types of models and they want some thinmg extra in it . ",
+  "correction": "People like to drive different types of models and they want something extra in them . "
+ },
+ {
+  "sentence": "Peolple like to drive different types of models and they want some thinmg extra in it . ",
+  "correction": "People like to drive different types of models and want something extra with it . "
+ },
+ {
+  "sentence": "Peolple like to drive different types of models and they want some thinmg extra in it . ",
+  "correction": "People like to drive different types of models and they want something extra in it . "
+ },
+ {
+  "sentence": "Next , kids are more attractive to the advertisements . ",
+  "correction": "Next , kids are more attracted to the advertisements . "
+ },
+ {
+  "sentence": "Next , kids are more attractive to the advertisements . ",
+  "correction": "Next , kids are more attracted to advertisements . "
+ },
+ {
+  "sentence": "Next , kids are more attractive to the advertisements . ",
+  "correction": "Next , kids are more attracted to the advertisements . "
+ },
+ {
+  "sentence": "Next , kids are more attractive to the advertisements . ",
+  "correction": "Next , kids are more attracted to the advertisements . "
+ },
+ {
+  "sentence": "I believe , that the product 's quality mentioned in the shops are exactly the same as given in the adds . ",
+  "correction": "I believe that the product 's quality mentioned in the shops is exactly the same as given in the ads . "
+ },
+ {
+  "sentence": "I believe , that the product 's quality mentioned in the shops are exactly the same as given in the adds . ",
+  "correction": "I believe that the product 's quality mentioned in the shops are exactly the same as mentioned in the advertisements . "
+ },
+ {
+  "sentence": "I believe , that the product 's quality mentioned in the shops are exactly the same as given in the adds . ",
+  "correction": "I believe that the quality of the product mentioned in the shops is exactly the same as what is given in the ads . "
+ },
+ {
+  "sentence": "I believe , that the product 's quality mentioned in the shops are exactly the same as given in the adds . ",
+  "correction": "I believe , that the product 's quality mentioned in the shops are exactly the same as given in the ads . "
+ },
+ {
+  "sentence": "I the same other people see many tims on TV rich people are intrested in politica , sports new technologies and also in spaise . ",
+  "correction": "I 've seen many times on TV the same people , rich people , who are interested in politics , sports , new technologies , and also in space . "
+ },
+ {
+  "sentence": "I the same other people see many tims on TV rich people are intrested in politica , sports new technologies and also in spaise . ",
+  "correction": "Like other people , I have seen many instances on TV where rich people are interested in politics , sports , new technologies , and space . "
+ },
+ {
+  "sentence": "I the same other people see many tims on TV rich people are intrested in politica , sports new technologies and also in spaise . ",
+  "correction": "I , same as other people , see many times on TV that rich people are interested in politics , sports , new technologies and space . "
+ },
+ {
+  "sentence": "I the same other people see many tims on TV rich people are intrested in politica , sports new technologies and also in spaise . ",
+  "correction": "I the same other people see many tims on TV rich people are intrested in politica , sports new technologies and also in spaise . "
+ },
+ {
+  "sentence": "Because they sent out 2 0 % of the whole carbon emission . ",
+  "correction": "Because they sent out 2 0 % of all carbon emissions . "
+ },
+ {
+  "sentence": "Because they sent out 2 0 % of the whole carbon emission . ",
+  "correction": "Because they sent out 2 0 % of the whole carbon emission , ? "
+ },
+ {
+  "sentence": "Because they sent out 2 0 % of the whole carbon emission . ",
+  "correction": "Because they sent out 2 0 % of the whole carbon emission . "
+ },
+ {
+  "sentence": "Because they sent out 2 0 % of the whole carbon emission . ",
+  "correction": "Because they sent out 2 0 % of the whole carbon emissions . "
+ },
+ {
+  "sentence": "and then , makers of cars need to develop the systems for safe almost completely . ",
+  "correction": "And then , makers of cars need to develop the systems for safety almost completely . "
+ },
+ {
+  "sentence": "and then , makers of cars need to develop the systems for safe almost completely . ",
+  "correction": "Then , auto makers need to develop systems for almost complete safety . "
+ },
+ {
+  "sentence": "and then , makers of cars need to develop the systems for safe almost completely . ",
+  "correction": "And then car manufacturers need to develop the systems for safety almost completely . "
+ },
+ {
+  "sentence": "and then , makers of cars need to develop the systems for safe almost completely . ",
+  "correction": "And then , makers of cars need to develop the systems for almost completely safe . "
+ },
+ {
+  "sentence": "So the importance of communities in sosiety decreased . ",
+  "correction": "So the importance of communities in society decreased . "
+ },
+ {
+  "sentence": "So the importance of communities in sosiety decreased . ",
+  "correction": "So the importance of communities in society decreased . "
+ },
+ {
+  "sentence": "So the importance of communities in sosiety decreased . ",
+  "correction": "So the importance of communities in society decreased . "
+ },
+ {
+  "sentence": "So the importance of communities in sosiety decreased . ",
+  "correction": "So the importance of communities in society decreased . "
+ },
+ {
+  "sentence": "They have to think twice before performing even routine activities of life . ",
+  "correction": "They have to think twice before performing even routine activities in life . "
+ },
+ {
+  "sentence": "They have to think twice before performing even routine activities of life . ",
+  "correction": "They have to think twice before performing even routine activities of life . "
+ },
+ {
+  "sentence": "They have to think twice before performing even routine activities of life . ",
+  "correction": "They have to think twice before performing even routine activities of life . "
+ },
+ {
+  "sentence": "They have to think twice before performing even routine activities of life . ",
+  "correction": "They have to think twice before performing even routine activities of life . "
+ },
+ {
+  "sentence": "Buses should be reserved for spots where there is no possibility to set up tramway routes . ",
+  "correction": "Buses should be reserved for spots where there is no possibility to set up tramway routes . "
+ },
+ {
+  "sentence": "Buses should be reserved for spots where there is no possibility to set up tramway routes . ",
+  "correction": "Buses should be reserved for spots where there is no possibility to set up tramway routes . "
+ },
+ {
+  "sentence": "Buses should be reserved for spots where there is no possibility to set up tramway routes . ",
+  "correction": "Buses should be reserved for spots where there is no possibility of setting up tramway routes . "
+ },
+ {
+  "sentence": "Buses should be reserved for spots where there is no possibility to set up tramway routes . ",
+  "correction": "Buses should be reserved for spots where there is no possibility to set up tramway routes . "
+ },
+ {
+  "sentence": "If i want to win a case in court in - for example , a case where technical questions are to be considered- it is not enough to just know about the law . ",
+  "correction": "For example , if I want to win a case in court in which technical questions are to be considered , it is not enough to just know about the law . "
+ },
+ {
+  "sentence": "If i want to win a case in court in - for example , a case where technical questions are to be considered- it is not enough to just know about the law . ",
+  "correction": "If I want to win a case in court in , for example , a case where technical questions are to be considered , it is not enough to know just about the law . "
+ },
+ {
+  "sentence": "If i want to win a case in court in - for example , a case where technical questions are to be considered- it is not enough to just know about the law . ",
+  "correction": "If I want to win a case in court , for example , a case where technical questions are to be considered , it is not enough to just know about the law . "
+ },
+ {
+  "sentence": "If i want to win a case in court in - for example , a case where technical questions are to be considered- it is not enough to just know about the law . ",
+  "correction": "If I want to win a case in court , for example , a case where technical questions are to be considered , it is not enough to just know about the law . "
+ },
+ {
+  "sentence": "always natural disaster bring economy damage . ",
+  "correction": "Natural disasters will always bring damage to the economy . "
+ },
+ {
+  "sentence": "always natural disaster bring economy damage . ",
+  "correction": "Natural disasters always bring damage to the economy . "
+ },
+ {
+  "sentence": "always natural disaster bring economy damage . ",
+  "correction": "Natural disasters always cause economic damage . "
+ },
+ {
+  "sentence": "always natural disaster bring economy damage . ",
+  "correction": "Always , the natural disaster brings economic damage . "
+ },
+ {
+  "sentence": "Exactly like master of none and Jack of all . ",
+  "correction": "Exactly like the phrase \" jack of all trades , master of none . \" "
+ },
+ {
+  "sentence": "Exactly like master of none and Jack of all . ",
+  "correction": "Exactly like master of none and jack of all trades . "
+ },
+ {
+  "sentence": "Exactly like master of none and Jack of all . ",
+  "correction": "Exactly like master of none and Jack of all . "
+ },
+ {
+  "sentence": "Exactly like master of none and Jack of all . ",
+  "correction": "It is exactly like master of none and jack of all . "
+ },
+ {
+  "sentence": "But in my opinion , if you want be a succussful people , you should have brave to try new things and take risks . ",
+  "correction": "But in my opinion , if you want to be a successful person , you should be brave , try new things , and take risks . "
+ },
+ {
+  "sentence": "But in my opinion , if you want be a succussful people , you should have brave to try new things and take risks . ",
+  "correction": "In my opinion , if you want be a successful person , you should be brave enough to try new things and take risks . "
+ },
+ {
+  "sentence": "But in my opinion , if you want be a succussful people , you should have brave to try new things and take risks . ",
+  "correction": "But in my opinion , if you want to be a successful person , you should be brave enough to try new things and take risks . "
+ },
+ {
+  "sentence": "But in my opinion , if you want be a succussful people , you should have brave to try new things and take risks . ",
+  "correction": "But in my opinion , if you want be a successful person , you should try new things and take risks . "
+ },
+ {
+  "sentence": "You often find people investing money in inventions only to sustain their own business . ",
+  "correction": "You often find people investing money in inventions only to sustain their own business . "
+ },
+ {
+  "sentence": "You often find people investing money in inventions only to sustain their own business . ",
+  "correction": "You often find people investing money in inventions only to sustain their own business . "
+ },
+ {
+  "sentence": "You often find people investing money in inventions only to sustain their own business . ",
+  "correction": "You often find people investing money in inventions only to sustain their own business . "
+ },
+ {
+  "sentence": "You often find people investing money in inventions only to sustain their own business . ",
+  "correction": "You often find people investing money in inventions only to sustain their own business . "
+ },
+ {
+  "sentence": "whlie you will be help each other of work together after gratuation from university . ",
+  "correction": "While you will be able to help each other and work together after graduating from university . "
+ },
+ {
+  "sentence": "whlie you will be help each other of work together after gratuation from university . ",
+  "correction": "whlie you will be help each other of work together after gratuation from university . "
+ },
+ {
+  "sentence": "whlie you will be help each other of work together after gratuation from university . ",
+  "correction": "While you will be able to help each other and work together after graduation from the university . "
+ },
+ {
+  "sentence": "whlie you will be help each other of work together after gratuation from university . ",
+  "correction": "While you will be able to help each other work together after graduation from university . "
+ },
+ {
+  "sentence": "This will help them to get good marks . ",
+  "correction": "This will help them to get good marks . "
+ },
+ {
+  "sentence": "This will help them to get good marks . ",
+  "correction": "This will help them to get good marks . "
+ },
+ {
+  "sentence": "This will help them to get good marks . ",
+  "correction": "This will help them get good marks . "
+ },
+ {
+  "sentence": "This will help them to get good marks . ",
+  "correction": "This will help them get good grades . "
+ },
+ {
+  "sentence": "Maybe they had enjoyed life in young times too . ",
+  "correction": "Maybe they enjoyed life when they were younger , too . "
+ },
+ {
+  "sentence": "Maybe they had enjoyed life in young times too . ",
+  "correction": "Maybe they had enjoyed life when they were young , too . "
+ },
+ {
+  "sentence": "Maybe they had enjoyed life in young times too . ",
+  "correction": "Maybe they enjoyed life when they were younger too . "
+ },
+ {
+  "sentence": "Maybe they had enjoyed life in young times too . ",
+  "correction": "Maybe , they had enjoyed life in young times too . "
+ },
+ {
+  "sentence": "This way anybody can reach success in his life and career . ",
+  "correction": "In this way , anybody can reach success in his , or her , life and career . "
+ },
+ {
+  "sentence": "This way anybody can reach success in his life and career . ",
+  "correction": "This way anyone can reach success in his or her lfe and career . "
+ },
+ {
+  "sentence": "This way anybody can reach success in his life and career . ",
+  "correction": "This way everybody can achieve success in their lives and careers . "
+ },
+ {
+  "sentence": "This way anybody can reach success in his life and career . ",
+  "correction": "This way anybody can reach success in his life and career . "
+ },
+ {
+  "sentence": "Thus a series of people got together and asked guided to change the schedule and guide could not help accepting their opinions . ",
+  "correction": "Thus a series of people got together and asked the guide to change the schedule , and the guide could not help but accept their opinions . "
+ },
+ {
+  "sentence": "Thus a series of people got together and asked guided to change the schedule and guide could not help accepting their opinions . ",
+  "correction": "Thus , a number of people got together and asked the guide to change the schedule , and the guide could not help but to accept their requests . "
+ },
+ {
+  "sentence": "Thus a series of people got together and asked guided to change the schedule and guide could not help accepting their opinions . ",
+  "correction": "Thus a series of people got together and asked the guides to change the schedule , and the guides could n't help accepting their opinions . "
+ },
+ {
+  "sentence": "Thus a series of people got together and asked guided to change the schedule and guide could not help accepting their opinions . ",
+  "correction": "Thus a series of people got together and asked guides to change the schedule and they could not help but accept their opinions . "
+ },
+ {
+  "sentence": "Now , I am a really happy girl because I find my confidence . ",
+  "correction": "Now I am a really happy girl because I found my confidence . "
+ },
+ {
+  "sentence": "Now , I am a really happy girl because I find my confidence . ",
+  "correction": "Now , I am a really happy girl because I found my confidence . "
+ },
+ {
+  "sentence": "Now , I am a really happy girl because I find my confidence . ",
+  "correction": "Now I am a really happy girl because I found my confidence . "
+ },
+ {
+  "sentence": "Now , I am a really happy girl because I find my confidence . ",
+  "correction": "Now , I am a really happy girl because I have found my confidence . "
+ },
+ {
+  "sentence": "So we are more successful the day of the exam . ",
+  "correction": "So we are more successful the day of the exam . "
+ },
+ {
+  "sentence": "So we are more successful the day of the exam . ",
+  "correction": "So we will be more successful on the day of the exam . "
+ },
+ {
+  "sentence": "So we are more successful the day of the exam . ",
+  "correction": "So we are more successful the day of the exam . "
+ },
+ {
+  "sentence": "So we are more successful the day of the exam . ",
+  "correction": "We are more successful on the day of the exam . "
+ },
+ {
+  "sentence": "The companies want to show there product as the best one in the competitive market and in this race they generally mislead the consumer . ",
+  "correction": "The companies want to show their product as best as they can once in the competitive market , and , in this race , they generally mislead the consumer . "
+ },
+ {
+  "sentence": "The companies want to show there product as the best one in the competitive market and in this race they generally mislead the consumer . ",
+  "correction": "Companies want to show that their product is the best one in a competitive market , and in this race they generally mislead the consumer . "
+ },
+ {
+  "sentence": "The companies want to show there product as the best one in the competitive market and in this race they generally mislead the consumer . ",
+  "correction": "The companies want to show there product as the best one in the competitive market and in this race they generally mislead the consumer . "
+ },
+ {
+  "sentence": "The companies want to show there product as the best one in the competitive market and in this race they generally mislead the consumer . ",
+  "correction": "The companies want to show their product as the best one in the competitive market and in this race they generally mislead the consumer . "
+ },
+ {
+  "sentence": "She know just that what teacher has told her but no more . ",
+  "correction": "She knows just what the teacher has told her , but nothing more . "
+ },
+ {
+  "sentence": "She know just that what teacher has told her but no more . ",
+  "correction": "She know just what her teacher has told her but no more . "
+ },
+ {
+  "sentence": "She know just that what teacher has told her but no more . ",
+  "correction": "She knows just what that teacher has told her but no more . "
+ },
+ {
+  "sentence": "She know just that what teacher has told her but no more . ",
+  "correction": "She knows what that teacher has told her , but no more . "
+ },
+ {
+  "sentence": "When facing such challenges , only those who are perserverant , determined and always strive until the last minute despite of the risks can finally be successful . ",
+  "correction": "When facing such challenges , only those who are perseverant , determined , and always strive until the last minute , despite of the risks , can be successful . "
+ },
+ {
+  "sentence": "When facing such challenges , only those who are perserverant , determined and always strive until the last minute despite of the risks can finally be successful . ",
+  "correction": "When facing such challenges , only those who persevere , are determined and keep trying until the last minute , despite the risks , can be successful in the end . "
+ },
+ {
+  "sentence": "When facing such challenges , only those who are perserverant , determined and always strive until the last minute despite of the risks can finally be successful . ",
+  "correction": "When facing such challenges , only those who are persevering , determined and always striving until the last minute , despite the risks , can finally be successful . "
+ },
+ {
+  "sentence": "When facing such challenges , only those who are perserverant , determined and always strive until the last minute despite of the risks can finally be successful . ",
+  "correction": "When facing such challenges , only those who are perseverant , determined and always strive until the last minute despite the risks can finally be successful . "
+ },
+ {
+  "sentence": "And people can not ready to pay the taxes . ",
+  "correction": "And people are not ready to pay the taxes . "
+ },
+ {
+  "sentence": "And people can not ready to pay the taxes . ",
+  "correction": "And people can not get ready to pay the taxes . "
+ },
+ {
+  "sentence": "And people can not ready to pay the taxes . ",
+  "correction": "And people are not ready to pay the taxes . "
+ },
+ {
+  "sentence": "And people can not ready to pay the taxes . ",
+  "correction": "And people are not ready to pay their taxes . "
+ },
+ {
+  "sentence": "My friends is the celebrate the pary . ",
+  "correction": "My friends are celebrating at the party . "
+ },
+ {
+  "sentence": "My friends is the celebrate the pary . ",
+  "correction": "My friends celebrated with a party . "
+ },
+ {
+  "sentence": "My friends is the celebrate the pary . ",
+  "correction": "My friends are to celebrate the party . "
+ },
+ {
+  "sentence": "My friends is the celebrate the pary . ",
+  "correction": "My friends is the celebrate the pary . "
+ },
+ {
+  "sentence": "Hence , in twenty years , the need for man to go out and get what he wants will be out of question . ",
+  "correction": "Hence , in twenty years , the need for man to go out and get what he wants will be out of question . "
+ },
+ {
+  "sentence": "Hence , in twenty years , the need for man to go out and get what he wants will be out of question . ",
+  "correction": "Hence , in twenty years , the need for man to go out and get what he wants will be out of question . "
+ },
+ {
+  "sentence": "Hence , in twenty years , the need for man to go out and get what he wants will be out of question . ",
+  "correction": "Therefore , in twenty years , the need for man to go out and get what he wants will be out of the question . "
+ },
+ {
+  "sentence": "Hence , in twenty years , the need for man to go out and get what he wants will be out of question . ",
+  "correction": "Hence , in twenty years , the need for a man to go out and get what he wants will be out of question . "
+ },
+ {
+  "sentence": "The question : which is more important ; making students to understand ideas and concepts or to learn facts , can be answered based on the level of learning which the student is undertaking . ",
+  "correction": "The question : which is more important , making students understand ideas and concepts or to learn facts , can be answered based on the level of learning which the student is taking . "
+ },
+ {
+  "sentence": "The question : which is more important ; making students to understand ideas and concepts or to learn facts , can be answered based on the level of learning which the student is undertaking . ",
+  "correction": "The question is whether it is more important to help students to understand ideas and concepts or to learn facts , and can be answered based on the level of learning the student is undertaking . "
+ },
+ {
+  "sentence": "The question : which is more important ; making students to understand ideas and concepts or to learn facts , can be answered based on the level of learning which the student is undertaking . ",
+  "correction": "Which is more important : making students understand ideas and concepts , or to learn facts that can be answered based upon the level of education the student is undertaking ? "
+ },
+ {
+  "sentence": "The question : which is more important ; making students to understand ideas and concepts or to learn facts , can be answered based on the level of learning which the student is undertaking . ",
+  "correction": "The question : which is more important , making students understand ideas and concepts or teaching them facts , can be answered based on the level of learning that each student is undertaking . "
+ },
+ {
+  "sentence": "I know Bill Gates , president of Window Media , is the best of the World Rich . ",
+  "correction": "I know Bill Gates , president of Windows Media , is the richest man in the world . "
+ },
+ {
+  "sentence": "I know Bill Gates , president of Window Media , is the best of the World Rich . ",
+  "correction": "I know that Bill Gates , president of Windows Media , is the best of the world 's richest people . "
+ },
+ {
+  "sentence": "I know Bill Gates , president of Window Media , is the best of the World Rich . ",
+  "correction": "I know Bill Gates , president of Window Media , is the best of the rich world . "
+ },
+ {
+  "sentence": "I know Bill Gates , president of Window Media , is the best of the World Rich . ",
+  "correction": "I know Bill Gates , president of Windows Media , is one of the world 's richest . "
+ },
+ {
+  "sentence": "for example , there may be eldelery travelers which may cause a slow movements due to their unability to walk fast . ",
+  "correction": "For example , there may be elderly travelers which may cause slow movement due to their inability to walk fast . "
+ },
+ {
+  "sentence": "for example , there may be eldelery travelers which may cause a slow movements due to their unability to walk fast . ",
+  "correction": "For example , there may be elderly travelers with the inability to walk fast , which may cause slow movements . "
+ },
+ {
+  "sentence": "for example , there may be eldelery travelers which may cause a slow movements due to their unability to walk fast . ",
+  "correction": "For example , there may be elderly travelers who may cause slow movement due to their inability to walk fast . "
+ },
+ {
+  "sentence": "for example , there may be eldelery travelers which may cause a slow movements due to their unability to walk fast . ",
+  "correction": "For example , there may be elderly travelers which may cause slow movement due to their inability to walk fast . "
+ },
+ {
+  "sentence": "these days our communication also in very good step . ",
+  "correction": "These days our communication is a very good step . "
+ },
+ {
+  "sentence": "these days our communication also in very good step . ",
+  "correction": "These days our communication is also in very good step . "
+ },
+ {
+  "sentence": "these days our communication also in very good step . ",
+  "correction": "These days , our communications are in very good step . "
+ },
+ {
+  "sentence": "these days our communication also in very good step . ",
+  "correction": "These days , our communication is also in very good shape . "
+ },
+ {
+  "sentence": "It is because they do not think the new thing to promote or make the people feel very good . ",
+  "correction": "It is because they do not think of new things to promote or make the people feel good . "
+ },
+ {
+  "sentence": "It is because they do not think the new thing to promote or make the people feel very good . ",
+  "correction": "It is because they do not think the new thing being promoted will make the people feel very good . "
+ },
+ {
+  "sentence": "It is because they do not think the new thing to promote or make the people feel very good . ",
+  "correction": "It is because they do not think it is the new thing to promote or it makes the people feel very good . "
+ },
+ {
+  "sentence": "It is because they do not think the new thing to promote or make the people feel very good . ",
+  "correction": "It is because they do not think of new ways to promote or make the people feel very good . "
+ }
+]
